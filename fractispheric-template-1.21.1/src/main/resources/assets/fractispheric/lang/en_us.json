@@ -1,0 +1,13 @@
+{
+  "itemGroup.fractispheric": "Example Mod Tab",
+  "block.fractispheric.example_block": "Example Block",
+  "item.fractispheric.example_item": "Example Item",
+
+  "fractispheric.configuration.title": "Fractispheric Configs",
+  "fractispheric.configuration.section.fractispheric.common.toml": "Fractispheric Configs",
+  "fractispheric.configuration.section.fractispheric.common.toml.title": "Fractispheric Configs",
+  "fractispheric.configuration.items": "Item List",
+  "fractispheric.configuration.logDirtBlock": "Log Dirt Block",
+  "fractispheric.configuration.magicNumberIntroduction": "Magic Number Text",
+  "fractispheric.configuration.magicNumber": "Magic Number"
+}
