@@ -1,0 +1,7 @@
+{
+  "type": "moredfs:mod",
+  "numerator": {
+    "type": "moredfs:x"
+  },
+  "denominator": 16
+}

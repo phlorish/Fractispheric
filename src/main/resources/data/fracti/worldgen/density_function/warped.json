@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:shifted_noise",
+    "noise": "fracti:continentalness",
+    "xz_scale": 1,
+    "y_scale": 0,
+    "shift_x": {
+      "type": "minecraft:mul",
+      "argument1": 5000,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "fracti:continentalness",
+        "xz_scale": 1,
+        "y_scale": 0
+      }
+    },
+    "shift_y": 0,
+    "shift_z": 0
+  },
+  "argument2": {
+    "type": "minecraft:shifted_noise",
+    "noise": "fracti:continentalness",
+    "xz_scale": 0.5,
+    "y_scale": 0,
+    "shift_x": {
+      "type": "minecraft:mul",
+      "argument1": 5000,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "fracti:continentalness",
+        "xz_scale": 0.5,
+        "y_scale": 0
+      }
+    },
+    "shift_y": 0,
+    "shift_z": 0
+  }
+}
