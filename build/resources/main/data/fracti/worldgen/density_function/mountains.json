@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:abs",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 0.5,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": "fracti:peaks",
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": "fracti:continentalness",
+        "argument2": "fracti:ridges"
+      }
+    }
+  }
+}

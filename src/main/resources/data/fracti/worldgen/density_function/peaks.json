@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:noise",
+      "noise": "fracti:continentalness",
+      "xz_scale": 1,
+      "y_scale": 0
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -0.5,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": "fracti:continent_delta_x"
+        },
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": "fracti:continent_delta_z"
+        }
+      }
+    }
+  },
+  "min": 0,
+  "max": 1
+}

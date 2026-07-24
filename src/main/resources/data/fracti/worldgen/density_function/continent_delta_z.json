@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:mul",
+  "argument1": 75,
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:shifted_noise",
+      "noise": "fracti:continentalness",
+      "xz_scale": 1,
+      "y_scale": 0,
+      "shift_x": 0,
+      "shift_y": 0,
+      "shift_z": -5
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": {
+        "type": "minecraft:shifted_noise",
+        "noise": "fracti:continentalness",
+        "xz_scale": 1,
+        "y_scale": 0,
+        "shift_x": 0,
+        "shift_y": 0,
+        "shift_z": 5
+      }
+    }
+  }
+}
