@@ -1,11 +1,11 @@
 {
   "type": "minecraft:mul",
-  "argument1": 0.1,
+  "argument1": 10,
   "argument2": {
     "type": "moredfs:floor",
     "argument": {
       "type": "minecraft:mul",
-      "argument1": 10,
+      "argument1": 0.1,
       "argument2": "fracti:continentalness"
     }
   }

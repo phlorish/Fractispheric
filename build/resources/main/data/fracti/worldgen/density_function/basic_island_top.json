@@ -1,51 +1,59 @@
 {
-  "type": "minecraft:mul",
-  "argument1": {
+  "type": "minecraft:clamp",
+  "input": {
     "type": "minecraft:add",
     "argument1": {
-      "type": "minecraft:add",
-      "argument1": "fracti:stepped",
-      "argument2": 0
-    },
-    "argument2": {
-      "type": "minecraft:mul",
-      "argument1": 0,
-      "argument2": {
-        "type": "minecraft:noise",
-        "noise": "fracti:roughening",
-        "xz_scale": 1,
-        "y_scale": 1
-      }
-    }
-  },
-  "argument2": {
-    "type": "minecraft:range_choice",
-    "input": "minecraft:y",
-    "min_inclusive": 63,
-    "max_exclusive": 256,
-    "when_in_range": {
-      "type": "minecraft:spline",
-      "spline": {
-        "coordinate": "minecraft:y",
-        "points": [
-          {
-            "location": 63,
-            "derivative": -0.02,
-            "value": 1
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": 63,
+      "max_exclusive": 256,
+      "when_in_range": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:range_choice",
+          "input": "fracti:temp_hum_and",
+          "min_inclusive": 0,
+          "max_exclusive": 2,
+          "when_in_range": {
+            "type": "minecraft:add",
+            "argument1": "fracti:temp_hum_and",
+            "argument2": 0.05
           },
-          {
-            "location": 128,
-            "derivative": -0.002,
-            "value": 0.1
-          },
-          {
-            "location": 256,
-            "derivative": 0,
-            "value": 0
+          "when_out_of_range": 0
+        },
+        "argument2": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "minecraft:y",
+            "points": [
+              {
+                "location": 63,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 72,
+                "derivative": -0.002,
+                "value": -0.2
+              },
+              {
+                "location": 192,
+                "derivative": 0,
+                "value": -0.5
+              },
+              {
+                "location": 256,
+                "derivative": -0.025,
+                "value": -1
+              }
+            ]
           }
-        ]
-      }
+        }
+      },
+      "when_out_of_range": 0
     },
-    "when_out_of_range": 0
-  }
+    "argument2": 0
+  },
+  "min": 0,
+  "max": 1
 }

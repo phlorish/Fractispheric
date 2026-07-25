@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": -64,
+      "max_exclusive": 63,
+      "when_in_range": {
+        "type": "minecraft:add",
+        "argument1": "fracti:temp_hum_and",
+        "argument2": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "minecraft:y",
+            "points": [
+              {
+                "location": -64,
+                "derivative": 0.025,
+                "value": -1
+              },
+              {
+                "location": 0,
+                "derivative": 0.005,
+                "value": -0.5
+              },
+              {
+                "location": 48,
+                "derivative": 0.004,
+                "value": -0.15
+              },
+              {
+                "location": 63,
+                "derivative": 0.02,
+                "value": 0
+              }
+            ]
+          }
+        }
+      },
+      "when_out_of_range": 0
+    },
+    "argument2": 0
+  },
+  "min": 0,
+  "max": 1
+}

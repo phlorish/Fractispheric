@@ -1,5 +1,9 @@
 {
   "type": "minecraft:add",
-  "argument1": -0.05,
-  "argument2": "fracti:basic_island_top"
+  "argument1": -0.001,
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": "fracti:basic_island_top",
+    "argument2": "fracti:basic_island_base"
+  }
 }
