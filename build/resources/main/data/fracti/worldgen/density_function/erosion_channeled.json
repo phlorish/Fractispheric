@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 1.1,
+    "argument2": {
+      "type": "minecraft:abs",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 1.175,
+          "argument2": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:shifted_noise",
+              "noise": "fracti:erosion",
+              "xz_scale": 1,
+              "y_scale": 0,
+              "shift_x": "minecraft:shift_x",
+              "shift_y": 0,
+              "shift_z": "minecraft:shift_z"
+            }
+          }
+        },
+        "argument2": -0.175
+      }
+    }
+  },
+  "argument2": -0.1
+}

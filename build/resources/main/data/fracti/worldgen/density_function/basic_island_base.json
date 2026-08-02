@@ -9,7 +9,7 @@
       "max_exclusive": 63,
       "when_in_range": {
         "type": "minecraft:add",
-        "argument1": "fracti:temp_hum_and",
+        "argument1": "fracti:combined_channels",
         "argument2": {
           "type": "minecraft:spline",
           "spline": {

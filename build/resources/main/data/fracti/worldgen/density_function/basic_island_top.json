@@ -11,13 +11,13 @@
         "type": "minecraft:add",
         "argument1": {
           "type": "minecraft:range_choice",
-          "input": "fracti:temp_hum_and",
+          "input": "fracti:combined_channels",
           "min_inclusive": 0,
           "max_exclusive": 2,
           "when_in_range": {
             "type": "minecraft:add",
-            "argument1": "fracti:temp_hum_and",
-            "argument2": 0.05
+            "argument1": "fracti:combined_channels",
+            "argument2": 0
           },
           "when_out_of_range": 0
         },
