@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:abs",
+        "argument": {
+          "type": "minecraft:shifted_noise",
+          "noise": "fracti:weirdness",
+          "xz_scale": 1,
+          "y_scale": 4,
+          "shift_x": "minecraft:shift_x",
+          "shift_y": 0,
+          "shift_z": "minecraft:shift_z"
+        }
+      },
+      "argument2": -0.15
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "argument1": 64,
+            "argument2": "fracti:combined_channels"
+          },
+          "min": 0,
+          "max": 64
+        }
+      },
+      "argument2": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "fracti:y_warp",
+          "points": [
+            {
+              "location": 208,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 224,
+              "derivative": 0,
+              "value": 1
+            },
+            {
+              "location": 240,
+              "derivative": 0,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "min": 0,
+  "max": 1
+}
