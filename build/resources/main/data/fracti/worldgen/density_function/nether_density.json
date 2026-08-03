@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 200,
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:cube",
+          "argument": "fracti:ridges"
+        },
+        "argument2": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "fracti:combined_channels",
+            "points": [
+              {
+                "location": 0,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 0.1,
+                "derivative": 0,
+                "value": 0.9
+              },
+              {
+                "location": 1,
+                "derivative": 0,
+                "value": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:y",
+      "min_inclusive": -63,
+      "max_exclusive": 312,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:y",
+        "min_inclusive": 63,
+        "max_exclusive": 312,
+        "when_in_range": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:mul",
+            "argument1": "minecraft:y",
+            "argument2": -1
+          },
+          "argument2": 63
+        },
+        "when_out_of_range": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:mul",
+            "argument1": "minecraft:y",
+            "argument2": 2
+          },
+          "argument2": -140
+        }
+      },
+      "when_out_of_range": -1000
+    }
+  },
+  "min": 0,
+  "max": 2
+}
