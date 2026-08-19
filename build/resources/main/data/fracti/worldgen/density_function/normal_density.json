@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "fracti:normal_island_base",
+  "argument2": "fracti:normal_island_top"
+}
