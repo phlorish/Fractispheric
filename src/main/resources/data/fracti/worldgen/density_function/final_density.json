@@ -1,5 +1,5 @@
 {
   "type": "minecraft:add",
   "argument1": -0.001,
-  "argument2": "fracti:wither_density"
+  "argument2": "fracti:glacius_density"
 }
