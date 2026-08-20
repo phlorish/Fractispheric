@@ -1,5 +1,5 @@
 {
   "type": "minecraft:add",
   "argument1": -0.001,
-  "argument2": "fracti:end_density"
+  "argument2": "fracti:toxarach_density"
 }

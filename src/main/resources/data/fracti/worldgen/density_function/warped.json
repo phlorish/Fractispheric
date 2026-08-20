@@ -4,13 +4,13 @@
     "type": "minecraft:shifted_noise",
     "noise": "fracti:continentalness",
     "xz_scale": 1,
-    "y_scale": 0,
+    "y_scale": 1,
     "shift_x": {
       "type": "minecraft:mul",
       "argument1": 5000,
       "argument2": {
         "type": "minecraft:noise",
-        "noise": "fracti:continentalness",
+        "noise": "fracti:temperature",
         "xz_scale": 1,
         "y_scale": 1
       }
@@ -20,17 +20,17 @@
   },
   "argument2": {
     "type": "minecraft:shifted_noise",
-    "noise": "fracti:continentalness",
+    "noise": "fracti:weirdness",
     "xz_scale": 0.5,
-    "y_scale": 0,
+    "y_scale": 0.5,
     "shift_x": {
       "type": "minecraft:mul",
       "argument1": 5000,
       "argument2": {
         "type": "minecraft:noise",
-        "noise": "fracti:continentalness",
-        "xz_scale": 0.5,
-        "y_scale": 0.5
+        "noise": "fracti:weirdness",
+        "xz_scale": 0.25,
+        "y_scale": 0.25
       }
     },
     "shift_y": 0,
