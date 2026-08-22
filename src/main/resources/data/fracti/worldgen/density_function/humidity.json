@@ -1,5 +1,6 @@
 {
-
+  "type": "minecraft:cache_2d",
+  "argument": {
     "type": "minecraft:shifted_noise",
     "noise": "fracti:humidity",
     "xz_scale": 1,
@@ -8,3 +9,4 @@
     "shift_y": 0,
     "shift_z": "minecraft:shift_z"
   }
+}

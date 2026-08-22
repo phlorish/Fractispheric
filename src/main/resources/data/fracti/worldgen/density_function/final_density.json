@@ -11,7 +11,7 @@
       "type": "minecraft:range_choice",
       "input": "fracti:erosion",
       "min_inclusive": -2,
-      "max_exclusive": -0.25,
+      "max_exclusive": -0.175,
       "when_in_range": {
         "type": "minecraft:range_choice",
         "input": "fracti:temperature",
@@ -37,8 +37,8 @@
       "when_out_of_range": {
         "type": "minecraft:range_choice",
         "input": "fracti:erosion",
-        "min_inclusive": -0.25,
-        "max_exclusive": 0.25,
+        "min_inclusive": -0.175,
+        "max_exclusive": 0.175,
         "when_in_range": {
           "type": "minecraft:range_choice",
           "input": "fracti:temperature",

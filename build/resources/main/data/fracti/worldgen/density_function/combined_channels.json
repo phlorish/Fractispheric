@@ -1,5 +1,7 @@
 {
-  "type": "minecraft:spline",
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:spline",
     "spline": {
       "coordinate": {
         "type": "minecraft:range_choice",
@@ -43,3 +45,4 @@
       ]
     }
   }
+}
