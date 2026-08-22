@@ -1,5 +1,89 @@
 {
   "type": "minecraft:add",
   "argument1": -0.001,
-  "argument2": "fracti:glacius_density"
+  "argument2": {
+    "type": "minecraft:range_choice",
+    "input": "fracti:combined_channels",
+    "min_inclusive": -2,
+    "max_exclusive": 0,
+    "when_in_range": -2,
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "fracti:erosion",
+      "min_inclusive": -2,
+      "max_exclusive": -0.25,
+      "when_in_range": {
+        "type": "minecraft:range_choice",
+        "input": "fracti:temperature",
+        "min_inclusive": -2,
+        "max_exclusive": 0,
+        "when_in_range": {
+          "type": "minecraft:range_choice",
+          "input": "fracti:humidity",
+          "min_inclusive": -2,
+          "max_exclusive": 0,
+          "when_in_range": "fracti:normal_density",
+          "when_out_of_range": "fracti:litho_density"
+        },
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "fracti:humidity",
+          "min_inclusive": -2,
+          "max_exclusive": 0,
+          "when_in_range": "fracti:botania_density",
+          "when_out_of_range": "fracti:marina_density"
+        }
+      },
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "fracti:erosion",
+        "min_inclusive": -0.25,
+        "max_exclusive": 0.25,
+        "when_in_range": {
+          "type": "minecraft:range_choice",
+          "input": "fracti:temperature",
+          "min_inclusive": -2,
+          "max_exclusive": 0,
+          "when_in_range": {
+            "type": "minecraft:range_choice",
+            "input": "fracti:humidity",
+            "min_inclusive": -2,
+            "max_exclusive": 0,
+            "when_in_range": "fracti:aether_density",
+            "when_out_of_range": "fracti:vis_density"
+          },
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "fracti:humidity",
+            "min_inclusive": -2,
+            "max_exclusive": 0,
+            "when_in_range": "fracti:end_density",
+            "when_out_of_range": "fracti:nether_density"
+          }
+        },
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "fracti:temperature",
+          "min_inclusive": -2,
+          "max_exclusive": 0,
+          "when_in_range": {
+            "type": "minecraft:range_choice",
+            "input": "fracti:humidity",
+            "min_inclusive": -2,
+            "max_exclusive": 0,
+            "when_in_range": "fracti:toxarach_density",
+            "when_out_of_range": "fracti:sculk_density"
+          },
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "fracti:humidity",
+            "min_inclusive": -2,
+            "max_exclusive": 0,
+            "when_in_range": "fracti:wither_density",
+            "when_out_of_range": "fracti:glacius_density"
+          }
+        }
+      }
+    }
+  }
 }
