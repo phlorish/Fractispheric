@@ -31,7 +31,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:forest"
+          "biome": "fracti:normal"
         },
         {
           "parameters": {
@@ -61,7 +61,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cold_ocean"
+          "biome": "fracti:sky"
         },
         {
           "parameters": {
@@ -91,7 +91,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:stony_shore"
+          "biome": "fracti:litho"
         },
         {
           "parameters": {
@@ -121,7 +121,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cold_ocean"
+          "biome": "fracti:sky"
         },
         {
           "parameters": {
@@ -151,7 +151,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:jungle"
+          "biome": "fracti:botania"
         },
         {
           "parameters": {
@@ -181,7 +181,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:lush_caves"
+          "biome": "fracti:marina"
         },
         {
           "parameters": {
@@ -211,7 +211,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cold_ocean"
+          "biome": "fracti:sky"
         },
         {
           "parameters": {
@@ -241,7 +241,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:sunflower_plains"
+          "biome": "fracti:aether"
         },
         {
           "parameters": {
@@ -271,7 +271,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:desert"
+          "biome": "fracti:vis"
         },
         {
           "parameters": {
@@ -301,7 +301,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:the_end"
+          "biome": "fracti:end"
         },
         {
           "parameters": {
@@ -331,7 +331,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:basalt_deltas"
+          "biome": "fracti:nether"
         },
         {
           "parameters": {
@@ -361,7 +361,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:cold_ocean"
+          "biome": "fracti:sky"
         },
         {
           "parameters": {
@@ -391,7 +391,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:dripstone_caves"
+          "biome": "fracti:toxarach"
         },
         {
           "parameters": {
@@ -421,7 +421,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:deep_dark"
+          "biome": "fracti:sculk"
         },
         {
           "parameters": {
@@ -451,7 +451,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:mushroom_fields"
+          "biome": "fracti:wither"
         },
         {
           "parameters": {
@@ -481,7 +481,7 @@
             ],
             "offset": 0
           },
-          "biome": "minecraft:ice_spikes"
+          "biome": "fracti:glacius"
         }
       ],
       "type": "minecraft:multi_noise"

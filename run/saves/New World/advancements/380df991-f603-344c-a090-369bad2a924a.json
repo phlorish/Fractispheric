@@ -1,25 +1,9 @@
 {
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:basalt_deltas": "2026-08-22 14:33:50 -0600"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-08-22 14:33:49 -0600"
+      "unlock_right_away": "2026-09-06 08:13:49 -0600"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:cold_ocean": "2026-08-22 14:34:12 -0600",
-      "minecraft:desert": "2026-08-22 14:34:18 -0600",
-      "minecraft:forest": "2026-08-22 14:35:03 -0600",
-      "minecraft:stony_shore": "2026-08-22 14:34:48 -0600",
-      "minecraft:lush_caves": "2026-08-22 14:36:42 -0600"
-    },
-    "done": false
   },
   "DataVersion": 3955
 }
