@@ -48,66 +48,7 @@
       "xz_scale": 1,
       "y_scale": 0.7142857142857143
     },
-    "initial_density_without_jaggedness": {
-      "type": "minecraft:add",
-      "argument1": 0.1171875,
-      "argument2": {
-        "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:y_clamped_gradient",
-          "from_value": 0,
-          "from_y": -64,
-          "to_value": 1,
-          "to_y": -40
-        },
-        "argument2": {
-          "type": "minecraft:add",
-          "argument1": -0.1171875,
-          "argument2": {
-            "type": "minecraft:add",
-            "argument1": -0.078125,
-            "argument2": {
-              "type": "minecraft:mul",
-              "argument1": {
-                "type": "minecraft:y_clamped_gradient",
-                "from_value": 1,
-                "from_y": 240,
-                "to_value": 0,
-                "to_y": 256
-              },
-              "argument2": {
-                "type": "minecraft:add",
-                "argument1": 0.078125,
-                "argument2": {
-                  "type": "minecraft:clamp",
-                  "input": {
-                    "type": "minecraft:add",
-                    "argument1": -0.703125,
-                    "argument2": {
-                      "type": "minecraft:mul",
-                      "argument1": 4,
-                      "argument2": {
-                        "type": "minecraft:quarter_negative",
-                        "argument": {
-                          "type": "minecraft:mul",
-                          "argument1": "minecraft:overworld/depth",
-                          "argument2": {
-                            "type": "minecraft:cache_2d",
-                            "argument": "minecraft:overworld/factor"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "max": 64,
-                  "min": -64
-                }
-              }
-            }
-          }
-        }
-      }
-    },
+    "initial_density_without_jaggedness": "fracti:final_density",
     "lava": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_lava",
@@ -254,9 +195,472 @@
     }
   ],
   "surface_rule": {
-    "type": "minecraft:block",
-    "result_state": {
-      "Name": "minecraft:stone"
-    }
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:stone_depth",
+          "offset": 0,
+          "surface_type": "floor",
+          "add_surface_depth": false,
+          "secondary_depth_range": 0
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "fracti:roughening",
+                "min_threshold": -0.2,
+                "max_threshold": 0.2
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:glacius"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:snow"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:marina"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:grass_block"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:steep"
+                }
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:aether",
+                        "fracti:botania",
+                        "fracti:normal",
+                        "fracti:sculk",
+                        "fracti:vis"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:grass_block"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:litho",
+                        "fracti:marina"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:sand"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:nether"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:crimson_nylium"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:wither"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:mycelium"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:stone_depth",
+          "offset": 1,
+          "surface_type": "floor",
+          "add_surface_depth": true,
+          "secondary_depth_range": 4
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:powder_snow",
+                "min_threshold": 0.7,
+                "max_threshold": 1
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:glacius"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:powder_snow"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "fracti:aether",
+                      "fracti:botania",
+                      "fracti:normal",
+                      "fracti:sculk",
+                      "fracti:toxarach",
+                      "fracti:vis",
+                      "fracti:wither"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:dirt"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "fracti:nether"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:netherrack"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "fracti:glacius"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:snow_block"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:biome",
+                "biome_is": [
+                  "fracti:litho"
+                ]
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:sandstone"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:noise_threshold",
+              "noise": "minecraft:calcite",
+              "min_threshold": 0.3,
+              "max_threshold": 1
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "fracti:glacius"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:ice"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:sequence",
+            "sequence": [
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:aether"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:andesite"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:marina",
+                    "fracti:normal",
+                    "fracti:toxarach",
+                    "fracti:wither"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:stone"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:end"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:end_stone"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:glacius"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:packed_ice"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:nether"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:netherrack"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:litho"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:y_above",
+                        "anchor": {
+                          "absolute": 64
+                        },
+                        "surface_depth_multiplier": 0,
+                        "add_stone_depth": false
+                      },
+                      "then_run": {
+                        "type": "minecraft:bandlands"
+                      }
+                    },
+                    {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:tuff"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:vis"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:diorite"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:sculk"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:deepslate"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:botania"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:granite"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "fracti:sky"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:stone"
+          }
+        }
+      }
+    ]
   }
 }

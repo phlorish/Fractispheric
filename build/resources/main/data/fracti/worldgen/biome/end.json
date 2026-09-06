@@ -9,9 +9,9 @@
     "water_fog_color": 1508659,
     "particle": {
       "options": {
-        "type": "minecraft:end_rod"
+        "type": "minecraft:enchant"
       },
-      "probability": 0.05
+      "probability": 0.005
     }
   },
   "spawners": {},

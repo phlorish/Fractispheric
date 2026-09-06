@@ -15,15 +15,15 @@
             ],
             "erosion": [
               -1,
-              -0.25
+              -0.17500000000000002
             ],
             "temperature": [
               -1,
-              -0.1
+              0
             ],
             "humidity": [
               -1,
-              -0.1
+              0
             ],
             "depth": [
               -1,
@@ -45,44 +45,14 @@
             ],
             "erosion": [
               -1,
-              1
+              -0.17500000000000002
             ],
             "temperature": [
               -1,
-              1
+              0
             ],
             "humidity": [
-              -0.1,
-              0.1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fracti:sky"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1,
-              1
-            ],
-            "erosion": [
-              -1,
-              -0.25
-            ],
-            "temperature": [
-              -1,
-              -0.1
-            ],
-            "humidity": [
-              0.1,
+              0,
               1
             ],
             "depth": [
@@ -105,45 +75,15 @@
             ],
             "erosion": [
               -1,
-              1
+              -0.17500000000000002
             ],
             "temperature": [
-              -0.1,
-              0.1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fracti:sky"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1,
-              1
-            ],
-            "erosion": [
-              -1,
-              -0.25
-            ],
-            "temperature": [
-              0.1,
+              0,
               1
             ],
             "humidity": [
               -1,
-              -0.1
+              0
             ],
             "depth": [
               -1,
@@ -165,14 +105,14 @@
             ],
             "erosion": [
               -1,
-              -0.25
+              -0.17500000000000002
             ],
             "temperature": [
-              0.1,
+              0,
               1
             ],
             "humidity": [
-              0.1,
+              0,
               1
             ],
             "depth": [
@@ -194,46 +134,16 @@
               1
             ],
             "erosion": [
-              -0.25,
-              -0.1
+              -0.17500000000000002,
+              0.17500000000000002
             ],
             "temperature": [
               -1,
-              1
+              0
             ],
             "humidity": [
               -1,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fracti:sky"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1,
-              1
-            ],
-            "erosion": [
-              -0.1,
-              0.1
-            ],
-            "temperature": [
-              -1,
-              -0.1
-            ],
-            "humidity": [
-              -1,
-              -0.1
+              0
             ],
             "depth": [
               -1,
@@ -254,15 +164,15 @@
               1
             ],
             "erosion": [
-              -0.1,
-              0.1
+              -0.17500000000000002,
+              0.17500000000000002
             ],
             "temperature": [
               -1,
-              -0.1
+              0
             ],
             "humidity": [
-              0.1,
+              0,
               1
             ],
             "depth": [
@@ -284,16 +194,16 @@
               1
             ],
             "erosion": [
-              -0.1,
-              0.1
+              -0.17500000000000002,
+              0.17500000000000002
             ],
             "temperature": [
-              0.1,
+              0,
               1
             ],
             "humidity": [
               -1,
-              -0.1
+              0
             ],
             "depth": [
               -1,
@@ -314,15 +224,15 @@
               1
             ],
             "erosion": [
-              -0.1,
-              0.1
+              -0.17500000000000002,
+              0.17500000000000002
             ],
             "temperature": [
-              0.1,
+              0,
               1
             ],
             "humidity": [
-              0.1,
+              0,
               1
             ],
             "depth": [
@@ -344,46 +254,16 @@
               1
             ],
             "erosion": [
-              0.1,
-              0.25
-            ],
-            "temperature": [
-              -1,
-              1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fracti:sky"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1,
-              1
-            ],
-            "erosion": [
-              0.25,
+              0.17500000000000002,
               1
             ],
             "temperature": [
               -1,
-              -0.1
+              0
             ],
             "humidity": [
               -1,
-              -0.1
+              0
             ],
             "depth": [
               -1,
@@ -404,15 +284,15 @@
               1
             ],
             "erosion": [
-              0.25,
+              0.17500000000000002,
               1
             ],
             "temperature": [
               -1,
-              -0.1
+              0
             ],
             "humidity": [
-              0.1,
+              0,
               1
             ],
             "depth": [
@@ -434,16 +314,16 @@
               1
             ],
             "erosion": [
-              0.25,
+              0.17500000000000002,
               1
             ],
             "temperature": [
-              0.1,
+              0,
               1
             ],
             "humidity": [
               -1,
-              -0.1
+              0
             ],
             "depth": [
               -1,
@@ -464,15 +344,15 @@
               1
             ],
             "erosion": [
-              0.25,
+              0.17500000000000002,
               1
             ],
             "temperature": [
-              0.1,
+              0,
               1
             ],
             "humidity": [
-              0.1,
+              0,
               1
             ],
             "depth": [
