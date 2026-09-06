@@ -12,5 +12,36 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:disk_sand"
+    ],
+    [],
+    [],
+    [
+      "minecraft:trees_birch",
+      "minecraft:bamboo_light",
+      "minecraft:flower_default",
+      "minecraft:flower_cherry",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_sunflower",
+      "minecraft:patch_tall_grass"
+    ],
+    []
+  ]
 }

@@ -12,5 +12,38 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_clay",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_gold",
+      "minecraft:ore_emerald",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:disk_sand"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_cactus_desert",
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:patch_grass_badlands"
+    ],
+    []
+  ]
 }

@@ -12,5 +12,38 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_extra",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_copper",
+      "minecraft:ore_copper_large",
+      "minecraft:disk_clay",
+      "minecraft:lush_caves_ceiling_vegetation"
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:mega_jungle_tree_checked",
+      "minecraft:trees_jungle",
+      "minecraft:rooted_azalea_tree",
+      "minecraft:jungle_bush",
+      "minecraft:flower_flower_forest",
+      "minecraft:patch_melon_sparse",
+      "minecraft:patch_grass_jungle",
+      "minecraft:vines"
+    ],
+    []
+  ]
 }

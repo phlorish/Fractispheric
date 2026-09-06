@@ -19,5 +19,27 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ice_patch",
+      "minecraft:ice_spike"
+    ],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_andesite_lower",
+      "minecraft:disk_sand"
+    ],
+    [],
+    [],
+    [
+      "minecraft:pine_on_snow",
+      "minecraft:pile_snow"
+    ],
+    []
+  ]
 }
