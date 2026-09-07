@@ -97,7 +97,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              0
             ],
             "continentalness": [
               -1,
@@ -362,6 +362,36 @@
             "offset": 0
           },
           "biome": "fracti:glacius"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.17500000000000002
+            ],
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:marina_shell"
         }
       ],
       "type": "minecraft:multi_noise"

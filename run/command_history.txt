@@ -1,1 +1,3 @@
 /time set day
+/locate biome fracti:marina
+/tp @s -354 78 635

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": "fracti:marina_water_density",
+  "argument2": -0.5
+}

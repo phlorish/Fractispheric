@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 50,
+      "argument2": "fracti:combined_channels"
+    },
+    "argument2": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "minecraft:y",
+        "points": [
+          {
+            "location": -50,
+            "derivative": 0,
+            "value": -35
+          },
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": -7
+          },
+          {
+            "location": 128,
+            "derivative": 0.005,
+            "value": 0
+          },
+          {
+            "location": 235,
+            "derivative": -0.005,
+            "value": -0.5
+          },
+          {
+            "location": 256,
+            "derivative": -0.05,
+            "value": -6
+          },
+          {
+            "location": 300,
+            "derivative": 0,
+            "value": -7
+          },
+          {
+            "location": 301,
+            "derivative": 0,
+            "value": -40
+          }
+        ]
+      }
+    }
+  },
+  "min_inclusive": 1.4,
+  "max_exclusive": 100,
+  "when_in_range": {
+    "type": "minecraft:mul",
+    "argument1": 1.2,
+    "argument2": {
+      "type": "minecraft:shifted_noise",
+      "noise": "fracti:marina_shelves",
+      "xz_scale": 1,
+      "y_scale": 5,
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z"
+    }
+  },
+  "when_out_of_range": 1
+}

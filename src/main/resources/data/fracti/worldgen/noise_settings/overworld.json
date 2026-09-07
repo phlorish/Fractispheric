@@ -55,7 +55,7 @@
       "xz_scale": 1,
       "y_scale": 1
     },
-    "ridges": "minecraft:overworld/ridges",
+    "ridges": "fracti:weirdness",
     "temperature": {
       "type": "minecraft:shifted_noise",
       "noise": "fracti:temperature",
@@ -240,7 +240,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fracti:marina"
+                        "fracti:marina_shell"
                       ]
                     },
                     "then_run": {
@@ -289,7 +289,7 @@
                       "type": "minecraft:biome",
                       "biome_is": [
                         "fracti:litho",
-                        "fracti:marina"
+                        "fracti:marina_shell"
                       ]
                     },
                     "then_run": {
@@ -505,7 +505,7 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "fracti:marina",
+                    "fracti:marina_shell",
                     "fracti:normal",
                     "fracti:toxarach",
                     "fracti:wither"
@@ -639,6 +639,21 @@
                   "type": "minecraft:block",
                   "result_state": {
                     "Name": "minecraft:granite"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:marina"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:water"
                   }
                 }
               }
