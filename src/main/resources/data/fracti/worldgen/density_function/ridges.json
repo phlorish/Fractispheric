@@ -2,7 +2,7 @@
   "type": "minecraft:add",
   "argument1": {
     "type": "minecraft:mul",
-    "argument1": 0.6,
+    "argument1": 0.8,
     "argument2": {
       "type": "minecraft:spline",
       "spline": {
@@ -37,7 +37,7 @@
     "type": "minecraft:add",
     "argument1": {
       "type": "minecraft:mul",
-      "argument1": 0.3,
+      "argument1": 0.15,
       "argument2": {
         "type": "minecraft:spline",
         "spline": {
@@ -70,7 +70,7 @@
     },
     "argument2": {
       "type": "minecraft:mul",
-      "argument1": 0.1,
+      "argument1": 0.05,
       "argument2": {
         "type": "minecraft:spline",
         "spline": {

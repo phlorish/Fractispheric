@@ -9,7 +9,7 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:cube",
-          "argument": "fracti:ridges"
+          "argument": "fracti:nether_ridges"
         },
         "argument2": {
           "type": "minecraft:spline",

@@ -1,3 +1,9 @@
 /time set day
 /locate biome fracti:marina
 /tp @s -354 78 635
+/locate biome fracti:normal
+/tp @s -487 151 -808
+/locate biome fracti:normal
+/tp @s -223 163 -1002
+/locate biome fracti:nether
+/tp @s -42 208 -1232

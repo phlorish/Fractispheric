@@ -45,11 +45,11 @@
       "argument1": "fracti:ridges",
       "argument2": {
         "type": "minecraft:mul",
-        "argument1": 0.1,
+        "argument1": 0.05,
         "argument2": {
           "type": "minecraft:shifted_noise",
           "noise": "fracti:roughening",
-          "xz_scale": 1,
+          "xz_scale": 0.5,
           "y_scale": 0,
           "shift_x": "minecraft:shift_x",
           "shift_y": 0,
