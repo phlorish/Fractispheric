@@ -47,8 +47,11 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:weeping_vines",
-      "minecraft:crimson_fungi",
-      "minecraft:crimson_forest_vegetation"
+      "regions_unexplored:nether/tree/infernal_holt",
+      "regions_unexplored:nether/patch/brimsprout",
+      "regions_unexplored:nether/dorcel",
+      "regions_unexplored:nether/patch/fire_unrestricted",
+      "regions_unexplored:nether/brimwood_shrub"
     ]
   ]
 }

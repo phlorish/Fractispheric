@@ -48,14 +48,17 @@
       "minecraft:spring_water"
     ],
     [
+      "minecraft:glow_lichen",
       "minecraft:forest_flowers",
-      "minecraft:trees_birch_and_oak",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "regions_unexplored:tree/group/old_growth_forest",
+      "regions_unexplored:tree/fallen/oak_dense",
+      "regions_unexplored:shrub/group/old_growth_forest",
+      "regions_unexplored:patch/fern_sparse",
+      "regions_unexplored:patch/short_grass_sparse"
     ],
     []
   ]

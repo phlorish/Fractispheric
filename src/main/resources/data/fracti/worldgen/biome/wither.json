@@ -47,7 +47,12 @@
       "minecraft:mushroom_island_vegetation",
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
-      "minecraft:patch_sugar_cane"
+      "minecraft:patch_sugar_cane",
+      "regions_unexplored:nether/tree/mycotoxic_undergrowth",
+      "regions_unexplored:nether/patch/mycotoxic_mushrooms",
+      "regions_unexplored:nether/patch/mycotoxic_grass",
+      "regions_unexplored:nether/patch/mycotoxic_daisy",
+      "regions_unexplored:nether/patch/yellow_bioshrooms"
     ],
     []
   ]

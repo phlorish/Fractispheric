@@ -38,9 +38,9 @@
       "minecraft:bamboo_light",
       "minecraft:flower_default",
       "minecraft:flower_cherry",
+      "minecraft:patch_tall_grass",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_sunflower",
-      "minecraft:patch_tall_grass"
+      "minecraft:patch_sunflower"
     ],
     []
   ]

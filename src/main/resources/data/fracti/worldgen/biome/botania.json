@@ -36,18 +36,21 @@
     ],
     [
       "twilightforest:tree/mega_canopy_tree",
-      "minecraft:mega_jungle_tree_checked",
-      "minecraft:trees_jungle",
       "minecraft:rooted_azalea_tree",
       "minecraft:jungle_bush",
-      "minecraft:flower_flower_forest",
-      "minecraft:patch_melon_sparse",
       "minecraft:patch_grass_jungle",
+      "minecraft:flower_flower_forest",
       "minecraft:vines",
+      "minecraft:patch_melon_sparse",
       "twilightforest:hollow_stump",
       "twilightforest:hollow_log",
       "twilightforest:tree/selector/dense_canopy_trees",
-      "twilightforest:default_fallen_logs"
+      "twilightforest:default_fallen_logs",
+      "regions_unexplored:tree/group/rainforest",
+      "regions_unexplored:shrub/group/rainforest",
+      "regions_unexplored:tree/group/orchard",
+      "regions_unexplored:patch/hibiscus",
+      "regions_unexplored:patch/elephant_ear_dense"
     ],
     []
   ]

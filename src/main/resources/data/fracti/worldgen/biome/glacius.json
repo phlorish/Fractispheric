@@ -22,11 +22,13 @@
   "features": [
     [],
     [],
-    [],
+    [
+      "regions_unexplored:tree/ice_spire",
+      "regions_unexplored:special/icicle_up"
+    ],
     [],
     [
-      "minecraft:ice_patch",
-      "minecraft:ice_spike"
+      "minecraft:ice_patch"
     ],
     [],
     [
@@ -37,8 +39,9 @@
     [],
     [],
     [
-      "minecraft:pine_on_snow",
-      "minecraft:pile_snow"
+      "minecraft:pile_snow",
+      "regions_unexplored:patch/snowy_flowers",
+      "regions_unexplored:patch/frozen_grass"
     ],
     []
   ]

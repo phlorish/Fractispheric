@@ -7,6 +7,7 @@
     "fog_color": 16774594,
     "water_color": 13814716,
     "water_fog_color": 3487051,
+    "grass_color": 13814112,
     "foliage_color": 15304470
   },
   "spawners": {},
@@ -25,24 +26,28 @@
     [],
     [
       "minecraft:ore_gravel",
-      "minecraft:ore_clay",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_gold",
-      "minecraft:ore_emerald",
       "minecraft:ore_diamond",
       "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
+      "minecraft:ore_clay",
       "minecraft:disk_sand"
     ],
     [],
     [],
     [
+      "minecraft:patch_dead_bush_2",
       "minecraft:patch_cactus_desert",
-      "minecraft:patch_dead_bush_badlands",
-      "minecraft:patch_grass_badlands"
+      "regions_unexplored:tree/group/joshua_desert",
+      "regions_unexplored:shrub/group/joshua_desert",
+      "regions_unexplored:patch/mallow",
+      "regions_unexplored:patch/desert_shrub_on_grass",
+      "regions_unexplored:patch/sandy_grass_dense",
+      "regions_unexplored:patch/short_grass_sparse"
     ],
     []
   ]

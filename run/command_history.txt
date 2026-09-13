@@ -21,3 +21,6 @@
 /tp @s 0 ~ -112
 /locate structure twilightforest:hollow_tree
 /tp @s 16 ~ 448
+/locate biome fracti:botania
+/tp @s -156 51 -1154
+/time set day

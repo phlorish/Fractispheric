@@ -240,7 +240,9 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fracti:marina_shell"
+                        "fracti:marina_shell",
+                        "fracti:litho",
+                        "fracti:glacius"
                       ]
                     },
                     "then_run": {
