@@ -1,0 +1,15 @@
+{
+  "config_version": "2.0.35",
+  "config_datetime": "2026-09-13_08-39-05",
+  "general": {},
+  "structure_namespaces": [],
+  "structures": [
+    {
+      "name": "twilightforest:hollow_tree",
+      "terrain_adaptation": "beard_thin",
+      "enable_flatness_check": true
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

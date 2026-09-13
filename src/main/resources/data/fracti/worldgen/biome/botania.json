@@ -35,6 +35,7 @@
       "minecraft:spring_water"
     ],
     [
+      "twilightforest:tree/mega_canopy_tree",
       "minecraft:mega_jungle_tree_checked",
       "minecraft:trees_jungle",
       "minecraft:rooted_azalea_tree",
@@ -42,7 +43,11 @@
       "minecraft:flower_flower_forest",
       "minecraft:patch_melon_sparse",
       "minecraft:patch_grass_jungle",
-      "minecraft:vines"
+      "minecraft:vines",
+      "twilightforest:hollow_stump",
+      "twilightforest:hollow_log",
+      "twilightforest:tree/selector/dense_canopy_trees",
+      "twilightforest:default_fallen_logs"
     ],
     []
   ]

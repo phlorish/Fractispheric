@@ -42,6 +42,17 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                url "https://cursemaven.com"
+            }
+        }
+        filter {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 base {
@@ -134,6 +145,15 @@ configurations {
 dependencies {
     //Dependency of More Density Functions
     implementation "maven.modrinth:HAVlno45:iSzvhglx"
+
+    //Dependency of Twilight Forest
+    implementation "curse.maven:the-twilight-forest-227639:7797302"
+
+    //Dependency of Structurify
+    implementation "curse.maven:structurify-1087551:8794973"
+
+    //Dependency on Yet Another Config Lib
+    implementation "maven.modrinth:1eAoo2KR:7TVdVtxF"
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
