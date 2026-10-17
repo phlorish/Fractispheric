@@ -1,0 +1,12 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": "#fracti:structures_to_constrain_height",
+  "spawn_condition": {
+    "type": "lithostitched:height_filter",
+    "range_type": "absolute",
+    "permitted_range": {
+      "min_inclusive": 0,
+      "max_inclusive": 256
+    }
+  }
+}

@@ -24,7 +24,7 @@ license="All Rights Reserved"
 modId="fractispheric" #mandatory
 
 # The version number of the mod
-version="0.0.1" #mandatory
+version="0.0.2" #mandatory
 
 # A display name for the mod
 displayName="Fractispheric" #mandatory
@@ -71,7 +71,7 @@ World Generation Mod for a shattered world of floating islands
     # Optional field describing why the dependency is required or why it is incompatible
     # reason="..."
     # The version range of the dependency
-    versionRange="[21.1.243,)" #mandatory
+    versionRange="[21.1.248,)" #mandatory
     # An ordering relationship for the dependency.
     # BEFORE - This mod is loaded BEFORE the dependency
     # AFTER - This mod is loaded AFTER the dependency

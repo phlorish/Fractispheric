@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.142'
+    id 'net.neoforged.moddev' version '2.0.147'
     id 'idea'
 }
 
@@ -149,9 +149,6 @@ dependencies {
     //Dependency of Twilight Forest
     implementation "curse.maven:the-twilight-forest-227639:7797302"
 
-    //Dependency of Structurify
-    implementation "curse.maven:structurify-1087551:8794973"
-
     //Dependency on Yet Another Config Lib
     implementation "maven.modrinth:1eAoo2KR:7TVdVtxF"
 
@@ -160,6 +157,9 @@ dependencies {
 
     //Dependency on Lithostitched
     implementation "curse.maven:lithostitched-936015:8819894"
+
+    //Dependency on Big Lost Cities
+    implementation "curse.maven:big-lost-city-1472594:8110093"
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

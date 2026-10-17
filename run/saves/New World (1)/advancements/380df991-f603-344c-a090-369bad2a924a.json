@@ -1,13 +1,13 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-09-13 13:10:10 -0600"
+      "unlock_right_away": "2026-10-17 13:52:41 -0600"
     },
     "done": true
   },
   "regions_unexplored:parent": {
     "criteria": {
-      "load_in_world": "2026-09-13 13:10:11 -0600"
+      "load_in_world": "2026-10-17 13:52:41 -0600"
     },
     "done": true
   },

@@ -1,26 +1,50 @@
-/time set day
-/locate biome fracti:marina
-/tp @s -354 78 635
-/locate biome fracti:normal
-/tp @s -487 151 -808
-/locate biome fracti:normal
-/tp @s -223 163 -1002
-/locate biome fracti:nether
-/tp @s -42 208 -1232
-/locate biome fracti:botania
-/tp @s -410 134 584
-/locate biome fracti:botania
-/tp @s 572 122 2563
-/locate biome fracti:botania
-/tp @s -762 247 1454
-/locate biome fracti:botania
-/tp @s -41 245 -118
-/locate biome fracti:sculk
-/tp @s 102 276 -631
+/tp @s -1032 135 -188
+/locate structure big_lost_city:bigshippingcontainer
+/locate structure fracti:bigshippingcontainer
+/locate structure big_lost_city:bigshippingcontainer
+/tp @s -1840 ~ 144
+/locate structure big_lost_city:ruinedskyscraper
+/tp @s -4848 ~ 2720
+/locate structure fracti:blackskyscraper
+/locate structure fracti:bigshippingcontainer
+/locate structure fracti:blackskyscraper
+/locate structure fracti:ruindedredskyscraper
+/locate structure fracti:bigshippingcontainer
+/locate structure big_lost_city:bigshippingcontainer
+/tp @s -1840 ~ 144
+/locate structure fracti:bigshippingcontainer
+/locate structure minecraft:desert_pyramid
+/locate biome fracti:wither
+/tp @s -182 70 -279
+/locate structure minecraft:desert_pyramid
+/locate biome fracti:wither
+/tp @s -4848 ~ 2720
+/locate structure minecraft:desert_pyramid
+/tp @s -6112 ~ 1872
+/locate structure minecraft:desert_pyramid
+/tp @s -944 ~ -384
+/locate structure fracti:blackskyscraper
+/locate structure big_lost_city:blackskyscraper
+/tp @s 1904 ~ 3024
+/locate biome fracti:wither
+/tp @s -177 86 -278
+/locate structure big_lost_city:blackskyscraper
+/tp @s -4976 ~ -4496
+/locate structure big_lost_city:blackskyscraper
+/tp @s -4976 ~ -4496
+/locate structure big_lost_city:blackskyscraper
+/tp @s 1904 ~ 3024
+/locate structure big_lost_city:tallskyscraper
+/tp @s -2560 ~ 1552
+/locate structure big_lost_city:ferriswheel
+/tp @s -5232 ~ 1168
 /locate structure twilightforest:hollow_tree
-/tp @s 0 ~ -112
+/tp @s -448 ~ 896
 /locate structure twilightforest:hollow_tree
-/tp @s 16 ~ 448
-/locate biome fracti:botania
-/tp @s -156 51 -1154
-/time set day
+/tp @s -5232 ~ 1168
+/locate structure twilightforest:hollow_tree
+/tp @s -5472 ~ 224
+/locate structure twilightforest:hedge_maze
+/tp @s -1527 ~ 1512
+/locate structure twilightforest:aurora_palace
+/tp @s -1751 ~ 2568
