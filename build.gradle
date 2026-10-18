@@ -161,6 +161,9 @@ dependencies {
     //Dependency on Big Lost Cities
     implementation "curse.maven:big-lost-city-1472594:8110093"
 
+    //Dependency on Tan's Huge Trees
+    implementation "curse.maven:tans-huge-trees-469915:8026658"
+
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

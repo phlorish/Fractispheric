@@ -1,13 +1,13 @@
-[17Oct2026 14:03:06.566] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.248, --assetIndex, 17, --assetsDir, C:\\Users\\Charlie\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430]
-[17Oct2026 14:03:06.569] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
-[17Oct2026 14:03:06.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[17Oct2026 14:03:06.693] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[17Oct2026 14:03:06.833] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[17Oct2026 14:03:06.932] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[17Oct2026 14:03:07.062] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Charlie/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[17Oct2026 14:03:07.322] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Radeon RX 580 Series GL version 4.6.0 Core Profile Context 25.5.1.250226, ATI Technologies Inc.
-[17Oct2026 14:03:07.728] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
-[17Oct2026 14:03:07.730] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[18Oct2026 09:47:26.372] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.248, --assetIndex, 17, --assetsDir, C:\\Users\\Charlie\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430]
+[18Oct2026 09:47:26.376] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[18Oct2026 09:47:26.377] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[18Oct2026 09:47:26.518] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[18Oct2026 09:47:26.684] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[18Oct2026 09:47:26.788] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[18Oct2026 09:47:26.920] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Charlie/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[18Oct2026 09:47:27.210] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Radeon RX 580 Series GL version 4.6.0 Core Profile Context 25.5.1.250226, ATI Technologies Inc.
+[18Oct2026 09:47:27.593] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[18Oct2026 09:47:27.595] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -19,133 +19,235 @@
 		MoreDensityFunctions 2.3.0 (moredensityfunctions)
 		NeoForge 21.1.248 (neoforge)
 		Regions Unexplored 0.6.2 (regions_unexplored)
+		Tan's Huge Trees 1.8.0 (tanshugetrees)
 		The Twilight Forest 4.8.3345 (twilightforest)
 		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3)
-[17Oct2026 14:03:08.851] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17Oct2026 14:03:08.853] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
-[17Oct2026 14:03:08.855] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[17Oct2026 14:03:08.872] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.248, --gameDir, ., --assetsDir, C:\Users\Charlie\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[17Oct2026 14:03:08.928] [main/WARN] [mixin/]: Reference map 'moredensityfunctions.refmap.json' for moredensityfunctions.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Oct2026 14:03:08.929] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Oct2026 14:03:08.930] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Oct2026 14:03:08.930] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[17Oct2026 14:03:09.333] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[17Oct2026 14:03:09.357] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[17Oct2026 14:03:10.907] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 426 milliseconds
-[17Oct2026 14:03:16.972] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17Oct2026 14:03:16.973] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17Oct2026 14:03:16.976] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17Oct2026 14:03:16.978] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17Oct2026 14:03:16.979] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17Oct2026 14:03:17.100] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.248.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[17Oct2026 14:03:17.101] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.248.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[17Oct2026 14:03:17.126] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17Oct2026 14:03:17.135] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[17Oct2026 14:03:17.224] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[17Oct2026 14:03:17.934] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Starting Bean Context
-[17Oct2026 14:03:17.954] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Charlie\IdeaProjects\Fractispheric\run\config\yacl.json5'
-[17Oct2026 14:03:17.956] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
-[17Oct2026 14:03:18.342] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Bean Context loaded in 408 ms
-[17Oct2026 14:03:23.973] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [fractispheric]
-[17Oct2026 14:03:24.330] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/lithostitched, mod/apollib, mod/moredensityfunctions, mod/regions_unexplored, mod/twilightforest, mod/neoforge, mod/big_lost_city, mod/yet_another_config_lib_v3, mod/fractispheric
-[17Oct2026 14:03:24.344] [Worker-Main-2/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM COMMON SETUP
-[17Oct2026 14:03:24.344] [Worker-Main-2/INFO] [com.phlorish.fractispheric.Fractispheric/]: DIRT BLOCK >> minecraft:dirt
-[17Oct2026 14:03:24.344] [Worker-Main-2/INFO] [com.phlorish.fractispheric.Fractispheric/]: The magic number is... 42
-[17Oct2026 14:03:24.345] [Worker-Main-2/INFO] [com.phlorish.fractispheric.Fractispheric/]: ITEM >> minecraft:iron_ingot
-[17Oct2026 14:03:24.405] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.248
-[17Oct2026 14:03:24.426] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[17Oct2026 14:03:24.618] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[17Oct2026 14:03:24.768] [Worker-Main-5/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM CLIENT SETUP
-[17Oct2026 14:03:24.769] [Worker-Main-5/INFO] [com.phlorish.fractispheric.Fractispheric/]: MINECRAFT NAME >> Dev
-[17Oct2026 14:03:25.144] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
-[17Oct2026 14:03:25.966] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'fractispheric:blockstates/example_block.json' missing model for variant: 'fractispheric:example_block#'
-[17Oct2026 14:03:25.970] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_item' referenced from: fractispheric:item/example_item: java.io.FileNotFoundException: fractispheric:models/item/example_item.json
-[17Oct2026 14:03:25.974] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_block' referenced from: fractispheric:item/example_block: java.io.FileNotFoundException: fractispheric:models/item/example_block.json
-[17Oct2026 14:03:27.276] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.tall_grass.fall
-[17Oct2026 14:03:27.277] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.leaf_litter.fall
-[17Oct2026 14:03:27.279] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[17Oct2026 14:03:27.279] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17Oct2026 14:03:27.346] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
-[17Oct2026 14:03:27.347] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[17Oct2026 14:03:27.474] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[17Oct2026 14:03:27.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
-[17Oct2026 14:03:27.502] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17Oct2026 14:03:27.507] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17Oct2026 14:03:27.512] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[17Oct2026 14:03:27.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[17Oct2026 14:03:27.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
-[17Oct2026 14:03:27.525] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17Oct2026 14:03:27.526] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17Oct2026 14:03:27.628] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[17Oct2026 14:03:27.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17Oct2026 14:03:27.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17Oct2026 14:03:27.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[17Oct2026 14:03:27.630] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[17Oct2026 14:03:27.666] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17Oct2026 14:03:27.750] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 twilightforest:textures/atlas/magic_paintings.png-atlas
-[17Oct2026 14:03:27.758] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[17Oct2026 14:03:44.288] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World
-[17Oct2026 14:03:44.288] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
-[17Oct2026 14:03:47.184] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2452 recipes
-[17Oct2026 14:03:47.419] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2582 advancements
-[17Oct2026 14:03:56.110] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[17Oct2026 14:03:56.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Oct2026 14:03:56.215] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:eucalyptus_forest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[17Oct2026 14:03:56.233] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[17Oct2026 14:03:56.237] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:sparse_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[17Oct2026 14:03:56.241] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:tropics biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[17Oct2026 14:04:04.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Oct2026 14:04:04.190] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:05.085] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:05.281] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:06.234] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:06.234] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:06.713] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:07.199] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[17Oct2026 14:04:07.718] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[17Oct2026 14:04:08.329] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[17Oct2026 14:04:08.689] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[17Oct2026 14:04:09.215] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[17Oct2026 14:04:09.702] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[17Oct2026 14:04:10.294] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[17Oct2026 14:04:10.678] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[17Oct2026 14:04:10.704] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[17Oct2026 14:04:10.704] [Server thread/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO from server starting
-[17Oct2026 14:04:10.716] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6545 ms
-[17Oct2026 14:04:10.730] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 10
-[17Oct2026 14:04:10.731] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[17Oct2026 14:04:11.463] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:165c529d] logged in with entity id 1 at (-2.5, 73.0, -2.5)
-[17Oct2026 14:04:11.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[17Oct2026 14:04:12.567] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[17Oct2026 14:04:12.607] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 16 advancements
-[17Oct2026 14:04:33.344] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element twilightforest:hedge_maze took 305 ms
-[17Oct2026 14:04:33.360] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest twilightforest:hedge_maze is at [-1527, ~, 1512] (2148 blocks away)
-[17Oct2026 14:04:50.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -1526.500000, 82.494634, 1512.500000]
-[17Oct2026 14:04:50.879] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4173ms or 83 ticks behind
-[17Oct2026 14:04:50.912] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -1526.500000, 82.494634, 1512.500000
-[17Oct2026 14:07:22.243] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element twilightforest:aurora_palace took 1771 ms
-[17Oct2026 14:07:22.258] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest twilightforest:aurora_palace is at [-1751, ~, 2568] (1084 blocks away)
-[17Oct2026 14:07:29.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -1750.500000, 83.491689, 2568.500000]
-[17Oct2026 14:07:29.506] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2099ms or 41 ticks behind
-[17Oct2026 14:07:29.760] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -1750.500000, 83.491689, 2568.500000
-[17Oct2026 14:08:14.808] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[17Oct2026 14:08:14.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[17Oct2026 14:08:14.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[17Oct2026 14:08:14.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
-[17Oct2026 14:08:14.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[17Oct2026 14:08:15.773] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[17Oct2026 14:08:15.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[17Oct2026 14:08:15.789] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[17Oct2026 14:08:15.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[17Oct2026 14:08:15.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[17Oct2026 14:08:15.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[17Oct2026 14:08:16.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[17Oct2026 14:08:17.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[17Oct2026 14:08:17.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
-[17Oct2026 14:08:17.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[17Oct2026 14:08:17.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[17Oct2026 14:08:17.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17Oct2026 14:08:17.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[17Oct2026 14:08:17.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17Oct2026 14:08:17.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17Oct2026 14:16:44.201] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[18Oct2026 09:47:28.896] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18Oct2026 09:47:28.898] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[18Oct2026 09:47:28.900] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[18Oct2026 09:47:28.922] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.248, --gameDir, ., --assetsDir, C:\Users\Charlie\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[18Oct2026 09:47:28.974] [main/WARN] [mixin/]: Reference map 'moredensityfunctions.refmap.json' for moredensityfunctions.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Oct2026 09:47:28.975] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Oct2026 09:47:28.976] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Oct2026 09:47:28.977] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Oct2026 09:47:29.421] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[18Oct2026 09:47:29.438] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[18Oct2026 09:47:31.158] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 470 milliseconds
+[18Oct2026 09:47:37.093] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Oct2026 09:47:37.095] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Oct2026 09:47:37.098] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Oct2026 09:47:37.100] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Oct2026 09:47:37.101] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Oct2026 09:47:37.221] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.248.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[18Oct2026 09:47:37.221] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.248.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[18Oct2026 09:47:37.247] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18Oct2026 09:47:37.256] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[18Oct2026 09:47:37.349] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[18Oct2026 09:47:38.036] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Starting Bean Context
+[18Oct2026 09:47:38.054] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Charlie\IdeaProjects\Fractispheric\run\config\yacl.json5'
+[18Oct2026 09:47:38.055] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[18Oct2026 09:47:38.458] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Bean Context loaded in 422 ms
+[18Oct2026 09:47:46.682] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [fractispheric]
+[18Oct2026 09:47:46.982] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/lithostitched, mod/apollib, mod/moredensityfunctions, mod/regions_unexplored, mod/twilightforest, mod/neoforge, mod/tanshugetrees, mod/big_lost_city, mod/yet_another_config_lib_v3, mod/fractispheric
+[18Oct2026 09:47:46.996] [Worker-Main-1/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM COMMON SETUP
+[18Oct2026 09:47:46.996] [Worker-Main-1/INFO] [com.phlorish.fractispheric.Fractispheric/]: DIRT BLOCK >> minecraft:dirt
+[18Oct2026 09:47:46.996] [Worker-Main-1/INFO] [com.phlorish.fractispheric.Fractispheric/]: The magic number is... 42
+[18Oct2026 09:47:46.997] [Worker-Main-1/INFO] [com.phlorish.fractispheric.Fractispheric/]: ITEM >> minecraft:iron_ingot
+[18Oct2026 09:47:47.068] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[18Oct2026 09:47:47.069] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[18Oct2026 09:47:47.071] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.248
+[18Oct2026 09:47:47.318] [Worker-Main-1/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM CLIENT SETUP
+[18Oct2026 09:47:47.318] [Worker-Main-1/INFO] [com.phlorish.fractispheric.Fractispheric/]: MINECRAFT NAME >> Dev
+[18Oct2026 09:47:47.783] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
+[18Oct2026 09:47:48.496] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'fractispheric:blockstates/example_block.json' missing model for variant: 'fractispheric:example_block#'
+[18Oct2026 09:47:48.500] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_item' referenced from: fractispheric:item/example_item: java.io.FileNotFoundException: fractispheric:models/item/example_item.json
+[18Oct2026 09:47:48.503] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_block' referenced from: fractispheric:item/example_block: java.io.FileNotFoundException: fractispheric:models/item/example_block.json
+[18Oct2026 09:47:49.868] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.tall_grass.fall
+[18Oct2026 09:47:49.869] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.leaf_litter.fall
+[18Oct2026 09:47:49.870] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[18Oct2026 09:47:49.871] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18Oct2026 09:47:49.946] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
+[18Oct2026 09:47:49.947] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[18Oct2026 09:47:50.046] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[18Oct2026 09:47:50.068] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[18Oct2026 09:47:50.071] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18Oct2026 09:47:50.077] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18Oct2026 09:47:50.082] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18Oct2026 09:47:50.093] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[18Oct2026 09:47:50.094] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18Oct2026 09:47:50.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18Oct2026 09:47:50.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18Oct2026 09:47:50.185] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18Oct2026 09:47:50.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18Oct2026 09:47:50.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18Oct2026 09:47:50.187] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[18Oct2026 09:47:50.188] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[18Oct2026 09:47:50.223] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18Oct2026 09:47:50.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 twilightforest:textures/atlas/magic_paintings.png-atlas
+[18Oct2026 09:47:50.299] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[18Oct2026 09:48:02.965] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World
+[18Oct2026 09:48:02.965] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[18Oct2026 09:48:04.265] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace fracti (2) in pack , ignoring
+[18Oct2026 09:48:04.267] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace fracti (2) in pack , ignoring
+[18Oct2026 09:48:05.664] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2453 recipes
+[18Oct2026 09:48:05.904] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2582 advancements
+[18Oct2026 09:48:13.105] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace fracti (2) in pack , ignoring
+[18Oct2026 09:48:13.107] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace fracti (2) in pack , ignoring
+[18Oct2026 09:48:13.186] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[18Oct2026 09:48:13.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Oct2026 09:48:13.301] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:eucalyptus_forest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18Oct2026 09:48:13.319] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18Oct2026 09:48:13.323] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:sparse_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18Oct2026 09:48:13.327] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:tropics biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[18Oct2026 09:48:23.451] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/0)
+[18Oct2026 09:48:23.543] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:48:23.545] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/-1)
+[18Oct2026 09:48:23.785] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:48:23.786] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/0)
+[18Oct2026 09:48:23.825] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:48:23.826] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/-1)
+[18Oct2026 09:48:23.949] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:48:24.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Oct2026 09:48:24.455] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:25.547] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:25.547] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:26.756] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:26.756] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:27.214] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:27.800] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:27.957] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:28.468] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[18Oct2026 09:48:28.938] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[18Oct2026 09:48:29.499] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[18Oct2026 09:48:29.952] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[18Oct2026 09:48:30.443] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[18Oct2026 09:48:31.022] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[18Oct2026 09:48:31.468] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[18Oct2026 09:48:32.039] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[18Oct2026 09:48:32.468] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[18Oct2026 09:48:32.497] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[18Oct2026 09:48:32.498] [Server thread/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO from server starting
+[18Oct2026 09:48:32.508] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8072 ms
+[18Oct2026 09:48:32.529] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 10
+[18Oct2026 09:48:32.530] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[18Oct2026 09:48:32.991] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace fracti (2) in pack , ignoring
+[18Oct2026 09:48:32.992] [Render thread/WARN] [net.minecraft.server.packs.PathPackResources/]: Non [a-z0-9_.-] character in namespace fracti (2) in pack , ignoring
+[18Oct2026 09:48:33.299] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ec4e3e50] logged in with entity id 1 at (-3.5, 72.0, -8.5)
+[18Oct2026 09:48:33.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[18Oct2026 09:48:34.405] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[18Oct2026 09:48:34.431] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 16 advancements
+[18Oct2026 09:48:40.237] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element fracti:botania took 336 ms
+[18Oct2026 09:48:40.257] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest fracti:botania is at [-36, 72, 567] (576 blocks away)
+[18Oct2026 09:48:48.776] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/1)
+[18Oct2026 09:48:49.455] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:48:49.456] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/1)
+[18Oct2026 09:48:49.998] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:48:50.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -35.500000, 72.000000, 567.500000]
+[18Oct2026 09:48:50.541] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5190ms or 103 ticks behind
+[18Oct2026 09:48:50.552] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -35.500000, 72.000000, 567.500000
+[18Oct2026 09:50:01.987] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/2)
+[18Oct2026 09:50:02.097] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:50:02.194] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/2)
+[18Oct2026 09:50:02.267] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:51:55.692] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -2/1)
+[18Oct2026 09:51:55.846] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:51:55.848] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -2/0)
+[18Oct2026 09:51:55.900] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:51:59.988] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -2/2)
+[18Oct2026 09:52:00.506] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:53:38.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
+[18Oct2026 09:54:36.872] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -5/3)
+[18Oct2026 09:54:36.939] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:54:36.940] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -5/2)
+[18Oct2026 09:54:37.049] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:54:37.050] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/3)
+[18Oct2026 09:54:37.164] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:54:37.165] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/2)
+[18Oct2026 09:54:37.498] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:54:37.659] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:37.659] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:37.661] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:37.661] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:37.808] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:37.808] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:37.811] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=135, y=-35, z=-81}
+[18Oct2026 09:54:39.173] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=113, y=31, z=-71}
+[18Oct2026 09:54:39.175] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=113, y=31, z=-69}
+[18Oct2026 09:54:39.175] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.175] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.175] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.175] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.234] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.235] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.235] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.235] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.235] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.235] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.236] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.236] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.236] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.236] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.236] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.236] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.237] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:39.237] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:39.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -2559.500000, 154.522397, 1552.500000]
+[18Oct2026 09:54:39.881] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8270ms or 165 ticks behind
+[18Oct2026 09:54:39.887] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -2559.500000, 154.522397, 1552.500000
+[18Oct2026 09:54:45.061] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-205, y=-59, z=177}
+[18Oct2026 09:54:45.061] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-203, y=-59, z=177}
+[18Oct2026 09:54:45.062] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-201, y=-59, z=177}
+[18Oct2026 09:54:45.062] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-199, y=-59, z=177}
+[18Oct2026 09:54:45.062] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-197, y=-59, z=177}
+[18Oct2026 09:54:45.062] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-195, y=-59, z=177}
+[18Oct2026 09:54:45.062] [worldgen/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=-207, y=-59, z=177}
+[18Oct2026 09:54:53.217] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element fracti:botania took 180 ms
+[18Oct2026 09:54:53.235] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest fracti:botania is at [-3012, 154, 1279] (544 blocks away)
+[18Oct2026 09:54:56.455] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:56.456] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:56.456] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:56.456] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:54:56.457] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:entity_gravity'
+[18Oct2026 09:54:56.457] [worldgen/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge:step_height_addition'
+[18Oct2026 09:55:03.248] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -7/2)
+[18Oct2026 09:55:04.567] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:55:07.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -3011.500000, 154.000000, 1279.500000]
+[18Oct2026 09:55:07.560] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6648ms or 132 ticks behind
+[18Oct2026 09:55:07.569] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -3011.500000, 154.000000, 1279.500000
+[18Oct2026 09:55:42.314] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -7/1)
+[18Oct2026 09:55:42.611] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:55:42.746] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/1)
+[18Oct2026 09:55:42.822] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:56:10.671] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -7/3)
+[18Oct2026 09:56:10.809] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:57:10.542] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -8/2)
+[18Oct2026 09:57:11.696] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:57:22.784] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -8/3)
+[18Oct2026 09:57:22.930] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:57:45.702] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 16 advancements
+[18Oct2026 09:57:50.368] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -8/1)
+[18Oct2026 09:57:50.709] [worldgen/INFO] [tanshugetrees/]: Completed!
+[18Oct2026 09:57:53.677] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[18Oct2026 10:02:27.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
+[18Oct2026 10:02:27.697] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[18Oct2026 10:03:24.727] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[18Oct2026 10:03:24.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[18Oct2026 10:03:24.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[18Oct2026 10:03:24.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[18Oct2026 10:03:24.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[18Oct2026 10:03:26.409] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[18Oct2026 10:03:26.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[18Oct2026 10:03:26.423] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[18Oct2026 10:03:26.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Oct2026 10:03:26.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Oct2026 10:03:26.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Oct2026 10:03:28.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[18Oct2026 10:03:30.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[18Oct2026 10:03:30.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[18Oct2026 10:03:30.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[18Oct2026 10:03:30.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[18Oct2026 10:03:30.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[18Oct2026 10:03:30.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Oct2026 10:03:30.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Oct2026 10:03:30.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Oct2026 10:03:38.227] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

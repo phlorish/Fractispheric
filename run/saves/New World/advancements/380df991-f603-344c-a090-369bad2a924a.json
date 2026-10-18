@@ -1,13 +1,25 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-10-17 14:04:11 -0600"
+      "unlock_right_away": "2026-10-18 09:48:33 -0600"
     },
     "done": true
   },
+  "regions_unexplored:regions_explored": {
+    "criteria": {
+      "chalk_cliffs": "2026-10-18 09:57:45 -0600"
+    },
+    "done": false
+  },
+  "regions_unexplored:pioneer": {
+    "criteria": {
+      "chalk_cliffs": "2026-10-18 09:57:45 -0600"
+    },
+    "done": false
+  },
   "regions_unexplored:parent": {
     "criteria": {
-      "load_in_world": "2026-10-17 14:04:12 -0600"
+      "load_in_world": "2026-10-18 09:48:34 -0600"
     },
     "done": true
   },
