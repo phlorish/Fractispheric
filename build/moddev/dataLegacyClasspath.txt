@@ -32,15 +32,15 @@ C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-cla
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar
-C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.15.2+mixin.0.8.7\2af2f021d8e02a0220dc27a7a72b4666d66d44ca\sponge-mixin-0.15.2+mixin.0.8.7.jar
+C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.16.4+mixin.0.8.7\26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433\sponge-mixin-0.16.4+mixin.0.8.7.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.3.0\b562e9bb61235c9520e26282cdee71f8f802d1fc\terminalconsoleappender-1.3.0.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar
-C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.43\3a941fcf258b5a7dde0445377a7206a55d11630d\earlydisplay-4.0.43.jar
-C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.43\fb10b7bf2f568a9676ad8b426b19c23badbbd98a\loader-4.0.43.jar
+C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.45\dc7a8b1370054dd0e2d70c1db4ddf4092793c115\earlydisplay-4.0.45.jar
+C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.45\4a0968c2ec6234d58e0a9ed97acafc08cc8f33b5\loader-4.0.45.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarFileSystems\0.4.1\78f59f89defcd032ed788b151ca6a0d40ace796a\JarJarFileSystems-0.4.1.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar
@@ -104,4 +104,4 @@ C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.10.1\
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.10.1\7bb9d450e8d4cbf9f9e04096c44bbfe7fba80b15\asm-util-9.10.1.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.10.1\ada2141c0cc52ee8f5c48cd5fa4ce0e794f22236\asm-9.10.1.jar
 C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar
-C:\Users\Charlie\IdeaProjects\Fractispheric\build\moddev\artifacts\neoforge-21.1.248-client-extra-aka-minecraft-resources.jar
+C:\Users\Charlie\IdeaProjects\Fractispheric\build\moddev\artifacts\neoforge-21.1.262-client-extra-aka-minecraft-resources.jar

@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.147'
+    id 'net.neoforged.moddev' version '2.0.148'
     id 'idea'
 }
 
@@ -53,6 +53,11 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+
+    maven {
+        name = "Sinytra"
+        url = "https://maven.sinytra.org/"
+    }
 }
 
 base {
@@ -80,12 +85,15 @@ neoForge {
         client {
             client()
 
+            jvmArguments = ["-Dconnector.clean.path=C:\\Users\\Charlie\\IdeaProjects\\Fractispheric\\build\\moddev\\artifacts\\neoforge-21.1.262-merged.jar"]
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
         server {
             server()
+
+            jvmArguments = ["-Dconnector.clean.path=C:\\Users\\Charlie\\IdeaProjects\\Fractispheric\\build\\moddev\\artifacts\\neoforge-21.1.262-merged.jar"]
             programArgument '--nogui'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
@@ -95,6 +103,8 @@ neoForge {
         // The gametest system is also enabled by default for other run configs under the /test command.
         gameTestServer {
             type = "gameTestServer"
+
+            jvmArguments = ["-Dconnector.clean.path=C:\\Users\\Charlie\\IdeaProjects\\Fractispheric\\build\\moddev\\artifacts\\neoforge-21.1.262-merged.jar"]
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
 
@@ -103,7 +113,7 @@ neoForge {
 
             // example of overriding the workingDirectory set in configureEach above, uncomment if you want to use it
             // gameDirectory = project.file('run-data')
-
+            jvmArguments = ["-Dconnector.clean.path=C:\\Users\\Charlie\\IdeaProjects\\Fractispheric\\build\\moddev\\artifacts\\neoforge-21.1.262-merged.jar"]
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
             programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
         }
@@ -143,6 +153,11 @@ configurations {
 }
 
 dependencies {
+    //Sinytra Connector stuff
+    implementation "curse.maven:forgified-fabric-api-889079:9195559"
+    //implementation "org.sinytra:connector:2.0.0-beta.16+1.21.1:full"
+    //implementation "curse.maven:connector-extras-913445:5618470"
+
     //Dependency of More Density Functions
     implementation "maven.modrinth:HAVlno45:iSzvhglx"
 
@@ -176,8 +191,26 @@ dependencies {
     //Dependency on Observer Lib
     implementation "curse.maven:observerlib-316833:8726128"
 
+    //Dependency on BC Lib
+    //implementation "curse.maven:bclib-remastered-1501730:9232104"
+
+    //Dependency on World Weaver
+    //implementation "curse.maven:worldweaver-1037172:5616543"
+
+    //Dependency on Wonder Lib
+    //implementation "curse.maven:wunderlib-1080043:5616544"
+
+    //Dependency on Trimmed
+    implementation "curse.maven:trimmed-857036:5424737"
+
     //Dependency on Regions Unexplored
     implementation "curse.maven:regions-unexplored-659110:8419667"
+
+    //Dependency on Enderscape
+    implementation "curse.maven:enderscape-536638:6875961"
+
+    //Dependency on Better End
+    //implementation "curse.maven:betterend-413596:5680728"
 
     //Dependency on Lithostitched
     implementation "curse.maven:lithostitched-936015:8819894"
