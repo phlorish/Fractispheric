@@ -1,16 +1,3 @@
-/tp @s -4848 ~ 2720
-/locate structure minecraft:desert_pyramid
-/tp @s -6112 ~ 1872
-/locate structure minecraft:desert_pyramid
-/tp @s -944 ~ -384
-/locate structure fracti:blackskyscraper
-/locate structure big_lost_city:blackskyscraper
-/tp @s 1904 ~ 3024
-/locate biome fracti:wither
-/tp @s -177 86 -278
-/locate structure big_lost_city:blackskyscraper
-/tp @s -4976 ~ -4496
-/locate structure big_lost_city:blackskyscraper
 /tp @s -4976 ~ -4496
 /locate structure big_lost_city:blackskyscraper
 /tp @s 1904 ~ 3024
@@ -48,3 +35,16 @@
 /locate biome fracti:botania
 /tp @s -3012 154 1279
 /time set day
+/locate biome fracti:aether
+/tp @s -218 72 74
+/locate structure philipsruins:field_stone_ruins
+/locate structure philipsruins:ancient_ruins
+/tp @s -218 72 74
+/locate structure philipsruins:ancient_ruins
+/tp @s -2768 ~ 1072
+/locate structure philipsruins:ancient_ruins
+/tp @s -2240 ~ 704
+/locate structure philipsruins:ancient_towers
+/tp @s -3088 ~ -496
+/gamemode survival
+/tp @s -3088 ~ -496

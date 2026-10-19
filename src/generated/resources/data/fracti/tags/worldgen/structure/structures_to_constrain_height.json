@@ -47,6 +47,12 @@
     "twilightforest:hollow_tree",
     "twilightforest:fallen_trunk",
     "twilightforest:hedge_maze",
-    "twilightforest:aurora_palace"
+    "twilightforest:aurora_palace",
+    "philipsruins:ancient_ruins",
+    "philipsruins:ancient_towers",
+    "philipsruins:field_stone_ruins",
+    "philipsruins:field_stone_ruins_rocks",
+    "philipsruins:level_one_ruins",
+    "philipsruins:rare_ruin"
   ]
 }

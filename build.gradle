@@ -149,8 +149,32 @@ dependencies {
     //Dependency of Twilight Forest
     implementation "curse.maven:the-twilight-forest-227639:7797302"
 
+    //Dependency of Aether
+    implementation "curse.maven:aether-255308:7043502"
+
+    //Dependency on Ars Nouveau
+    implementation "curse.maven:ars-nouveau-401955:9052154"
+
+    //Dependency on Astral Sorcery
+    implementation "curse.maven:astral-sorcery-241721:9148506"
+
     //Dependency on Yet Another Config Lib
     implementation "maven.modrinth:1eAoo2KR:7TVdVtxF"
+
+    //Dependency on Accessories
+    implementation "curse.maven:accessories-938917:9216447"
+
+    //Dependency on Curios
+    implementation "curse.maven:curios-309927:6529130"
+
+    //Dependency on owo
+    implementation "curse.maven:owo-lib-532610:9215303"
+
+    //Dependency on Gecko Lib
+    implementation "curse.maven:geckolib-388172:8893490"
+
+    //Dependency on Observer Lib
+    implementation "curse.maven:observerlib-316833:8726128"
 
     //Dependency on Regions Unexplored
     implementation "curse.maven:regions-unexplored-659110:8419667"
@@ -158,11 +182,17 @@ dependencies {
     //Dependency on Lithostitched
     implementation "curse.maven:lithostitched-936015:8819894"
 
+    //Dependency on Feature Recycler
+    implementation "curse.maven:feature-recycler-1077985:5829420"
+
     //Dependency on Big Lost Cities
     implementation "curse.maven:big-lost-city-1472594:8110093"
 
     //Dependency on Tan's Huge Trees
     implementation "curse.maven:tans-huge-trees-469915:8026658"
+
+    //Dependency on Philip's Ruins
+    implementation "curse.maven:ruins-569737:6058135"
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

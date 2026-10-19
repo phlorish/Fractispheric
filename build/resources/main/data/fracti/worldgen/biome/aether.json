@@ -13,35 +13,48 @@
   "spawn_costs": {},
   "carvers": {},
   "features": [
-    [],
-    [],
-    [],
+    [
+      "aether:quicksoil_shelf"
+    ],
+    [
+      "aether:water_lake"
+    ],
+    [
+      "regions_unexplored:rock/group/highland_fields"
+    ],
     [],
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:disk_sand"
+      "aether:aether_dirt_ore",
+      "aether:icestone_ore",
+      "aether:ambrosium_ore",
+      "aether:zanite_ore",
+      "aether:gravitite_ore_buried",
+      "aether:gravitite_ore"
     ],
-    [],
     [],
     [
-      "minecraft:trees_birch",
-      "minecraft:bamboo_light",
-      "minecraft:flower_default",
-      "minecraft:flower_cherry",
-      "minecraft:patch_tall_grass",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_sunflower"
+      "aether:water_spring"
     ],
-    []
+    [
+      "aether:skyroot_forest_trees",
+      "ars_nouveau:placed_mixed_archwoods",
+      "aether:holiday_tree",
+      "aether:grass_patch",
+      "aether:tall_grass_patch",
+      "aether:white_flower_patch",
+      "aether:purple_flower_patch",
+      "fracti:bamboo_patch",
+      "regions_unexplored:patch/daisies",
+      "astralsorcery:placed_glimmer_amaranth_flowers",
+      "aether:berry_bush_patch"
+    ],
+    [
+      "aether:crystal_island",
+      "aether:cold_aercloud",
+      "aether:blue_aercloud",
+      "aether:golden_aercloud"
+    ]
   ]
 }
