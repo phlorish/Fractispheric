@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#minecraft:village",
+    "minecraft:ruined_portal",
     "big_lost_city:bigshippingcontainer",
     "big_lost_city:blackskyscraper",
     "big_lost_city:car_1",

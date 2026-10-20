@@ -179,7 +179,7 @@
       },
       "regions_unexplored:chalk_cliffs": {
         // This biome has special placement rules. It can only be enabled or disabled.
-        "special_enabled": true
+        "special_enabled": false
       },
       "regions_unexplored:clover_plains": {
         "can_replace": [
@@ -368,7 +368,7 @@
       },
       "regions_unexplored:inferno": {
         // This biome has special placement rules. It can only be enabled or disabled.
-        "special_enabled": true
+        "special_enabled": false
       },
       "regions_unexplored:joshua_desert": {
         "can_replace": [
@@ -537,7 +537,7 @@
       },
       "regions_unexplored:prismachasm": {
         // This biome has special placement rules. It can only be enabled or disabled.
-        "special_enabled": true
+        "special_enabled": false
       },
       "regions_unexplored:rainforest": {
         "can_replace": [
@@ -548,7 +548,7 @@
       },
       "regions_unexplored:redstone_caves": {
         // This biome has special placement rules. It can only be enabled or disabled.
-        "special_enabled": true
+        "special_enabled": false
       },
       "regions_unexplored:redwoods": {
         "can_replace": [
