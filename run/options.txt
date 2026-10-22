@@ -22,7 +22,7 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:32
+renderDistance:30
 simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
@@ -143,10 +143,10 @@ key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.qc10:key.keyboard.unknown
 key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown
+key_key.twilightforest.swap_hotbar:key.keyboard.v
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.twilightforest.item_display_map_cycle:key.keyboard.c
 key_key.twilightforest.zoom:key.keyboard.z
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
-key_key.twilightforest.swap_hotbar:key.keyboard.v
 soundCategory_master:0.0
 soundCategory_music:1.0
 soundCategory_record:1.0

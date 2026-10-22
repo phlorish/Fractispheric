@@ -16,7 +16,8 @@
     [],
     [],
     [
-      "minecraft:amethyst_geode"
+      "alexscaves:acid_lake",
+      "alexscaves:toxic_ruins"
     ],
     [
       "minecraft:fossil_upper",
@@ -27,6 +28,8 @@
     [],
     [],
     [
+      "alexscaves:metal_swarf_replace_mud",
+      "alexscaves:unrefined_waste_replace_mud",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_tuff",
@@ -42,14 +45,17 @@
       "minecraft:ore_lapis_buried",
       "minecraft:underwater_magma",
       "minecraft:disk_grass",
-      "minecraft:disk_clay"
+      "minecraft:disk_clay",
+      "alexscaves:radrock_uranium_ore"
     ],
     [],
     [
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "alexscaves:spring_acid",
+      "alexscaves:acid_vent"
     ],
     [
+      "alexscaves:underweed",
       "minecraft:glow_lichen",
       "minecraft:trees_mangrove",
       "minecraft:patch_grass_normal",

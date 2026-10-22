@@ -1,22 +1,24 @@
-[20Oct2026 11:30:42.512] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.262, --assetIndex, 17, --assetsDir, C:\\Users\\Charlie\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.262, --fml.neoFormVersion, 20240808.144430]
-[20Oct2026 11:30:42.516] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
-[20Oct2026 11:30:42.518] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[20Oct2026 11:30:42.656] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[20Oct2026 11:30:42.814] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[20Oct2026 11:30:42.920] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[20Oct2026 11:30:43.055] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Charlie/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[20Oct2026 11:30:43.379] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Radeon RX 580 Series GL version 4.6.0 Core Profile Context 25.5.1.250226, ATI Technologies Inc.
-[20Oct2026 11:30:44.053] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: accessories. Using Mod File: C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\curse.maven\accessories-938917\9216447\d0b07fa319a9f93c82873f9851ad35e100031f6\accessories-938917-9216447.jar
-[20Oct2026 11:30:44.054] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 27 dependencies adding them to mods collection
-[20Oct2026 11:30:44.058] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[22Oct2026 09:57:41.121] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.262, --assetIndex, 17, --assetsDir, C:\\Users\\Charlie\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.262, --fml.neoFormVersion, 20240808.144430]
+[22Oct2026 09:57:41.125] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.9+10-LTS
+[22Oct2026 09:57:41.127] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.9 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[22Oct2026 09:57:41.246] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22Oct2026 09:57:41.384] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22Oct2026 09:57:41.480] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22Oct2026 09:57:41.610] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Charlie/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[22Oct2026 09:57:41.858] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Radeon RX 580 Series GL version 4.6.0 Core Profile Context 25.5.1.250226, ATI Technologies Inc.
+[22Oct2026 09:57:42.390] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: accessories. Using Mod File: C:\Users\Charlie\.gradle\caches\modules-2\files-2.1\curse.maven\accessories-938917\9216447\d0b07fa319a9f93c82873f9851ad35e100031f6\accessories-938917-9216447.jar
+[22Oct2026 09:57:42.390] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 27 dependencies adding them to mods collection
+[22Oct2026 09:57:42.394] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Accessories 1.1.0-beta.54+1.21.1 (accessories)
+		Alex's Caves 2.0.10 (alexscaves)
 		Apollib 1.2.0 (apollib)
 		Ars Nouveau 5.13.3 (ars_nouveau)
 		Astral Sorcery 2.0.2 (astralsorcery)
 		big lost city 1.0.1 (big_lost_city)
+		Citadel 2.7.1 (citadel)
 		Cumulus 2.0.7 (cumulus_menus)
 		Curios API 9.5.1+1.21.1 (curios)
 		Enderscape 1.0.9 (enderscape)
@@ -41,329 +43,436 @@
 		The Twilight Forest 4.8.3345 (twilightforest)
 		Trimmed 3.0.0 (trimmed)
 		YetAnotherConfigLib 3.8.2+1.21.1-neoforge (yet_another_config_lib_v3)
-[20Oct2026 11:30:45.516] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
-[20Oct2026 11:30:45.518] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[20Oct2026 11:30:45.594] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.262, --gameDir, ., --assetsDir, C:\Users\Charlie\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[20Oct2026 11:30:45.666] [main/WARN] [mixin/]: Reference map 'moredensityfunctions.refmap.json' for moredensityfunctions.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.669] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.669] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.672] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.677] [main/WARN] [mixin/]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.679] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.680] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.683] [main/WARN] [mixin/]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.685] [main/WARN] [mixin/]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.686] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.686] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.687] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.688] [main/WARN] [mixin/]: Reference map 'nuggets.refmap.json' for nuggets.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.689] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.795] [main/WARN] [mixin/]: Reference map 'ars_nouveau.refmap.json' for ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.796] [main/WARN] [mixin/]: Reference map 'trimmed.refmap.json' for trimmed.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:45.797] [main/WARN] [mixin/]: Reference map 'trimmed.refmap.json' for trimmed.neo.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Oct2026 11:30:46.990] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[20Oct2026 11:30:47.087] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[20Oct2026 11:30:47.106] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
-[20Oct2026 11:30:49.806] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 508 milliseconds
-[20Oct2026 11:30:57.123] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20Oct2026 11:30:57.125] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20Oct2026 11:30:57.128] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20Oct2026 11:30:57.129] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20Oct2026 11:30:57.130] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20Oct2026 11:30:57.360] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.262.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[20Oct2026 11:30:57.360] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.262.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[20Oct2026 11:30:57.389] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20Oct2026 11:30:57.398] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[20Oct2026 11:30:57.540] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[20Oct2026 11:30:58.421] [modloading-worker-0/INFO] [owo/]: fuck i need to update tags again
-[20Oct2026 11:30:58.710] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.262, for MC 1.21.1
-[20Oct2026 11:30:58.838] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing EnderscapeConfig from 'C:\Users\Charlie\IdeaProjects\Fractispheric\run\config\enderscape.json5'
-[20Oct2026 11:30:58.853] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Charlie\IdeaProjects\Fractispheric\run\config\yacl.json5'
-[20Oct2026 11:30:59.034] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Starting Bean Context
-[20Oct2026 11:30:59.476] [modloading-worker-0/INFO] [net.bunten.enderscape.Enderscape/]: Enderscape initialized!
-[20Oct2026 11:31:00.056] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Bean Context loaded in 1022 ms
-[20Oct2026 11:31:09.445] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [fractispheric]
-[20Oct2026 11:31:09.941] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/moredensityfunctions, mod/astralsorcery, mod/fabric_api_base, mod/regions_unexplored, mod/owo, mod/enderscape, mod/geckolib, mod/aether, mod/lithostitched, mod/apollib, mod/philipsruins, mod/curios, mod/featurerecycler, mod/neoforge, mod/fractispheric, mod/tanshugetrees, mod/accessories, mod/cumulus_menus, mod/lambdynlights_api, mod/observerlib, mod/yet_another_config_lib_v3, mod/nuggets, mod/nitrogen_internals, mod/ars_nouveau, mod/big_lost_city, mod/infiniverse, mod/twilightforest, mod/trimmed
-[20Oct2026 11:31:10.073] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/agronomic_sourcelink_animation.json'
-[20Oct2026 11:31:10.076] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alchemical_sourcelink_animation.json'
-[20Oct2026 11:31:10.076] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alteration_apparatus_animations.json'
-[20Oct2026 11:31:10.076] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/amethyst_golem_animations.json'
-[20Oct2026 11:31:10.096] [Worker-Main-3/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM COMMON SETUP
-[20Oct2026 11:31:10.096] [Worker-Main-3/INFO] [com.phlorish.fractispheric.Fractispheric/]: DIRT BLOCK >> minecraft:dirt
-[20Oct2026 11:31:10.096] [Worker-Main-3/INFO] [com.phlorish.fractispheric.Fractispheric/]: The magic number is... 42
-[20Oct2026 11:31:10.097] [Worker-Main-3/INFO] [com.phlorish.fractispheric.Fractispheric/]: ITEM >> minecraft:iron_ingot
-[20Oct2026 11:31:10.144] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
-[20Oct2026 11:31:10.178] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/animated_block_animations.json'
-[20Oct2026 11:31:10.179] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_core_animations.json'
-[20Oct2026 11:31:10.179] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_pedestal_animations.json'
-[20Oct2026 11:31:10.180] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/basic_spell_turret_animations.json'
-[20Oct2026 11:31:10.181] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/book_wyrm_animation.json'
-[20Oct2026 11:31:10.181] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/book_wyrm_lectern_animations.json'
-[20Oct2026 11:31:10.182] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/decor_blossom_animations.json'
-[20Oct2026 11:31:10.183] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/drygmy_animations.json'
-[20Oct2026 11:31:10.188] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/empty.json'
-[20Oct2026 11:31:10.189] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/enchanting_apparatus_animations.json'
-[20Oct2026 11:31:10.196] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/imbuement_chamber_animations.json'
-[20Oct2026 11:31:10.199] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/lily_animations.json'
-[20Oct2026 11:31:10.217] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/mana_relay_animation.json'
-[20Oct2026 11:31:10.218] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/nook_animation.json'
-[20Oct2026 11:31:10.221] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/potion_melder_animation.json'
-[20Oct2026 11:31:10.222] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/press_animations.json'
-[20Oct2026 11:31:10.222] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/redstone_relay_animations.json'
-[20Oct2026 11:31:10.223] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/ritual.json'
-[20Oct2026 11:31:10.223] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/rune.json'
-[20Oct2026 11:31:10.223] [Worker-Main-2/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/scribes_table_animations.json'
-[20Oct2026 11:31:10.217] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/mana_splitter_animation.json'
-[20Oct2026 11:31:10.224] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/scryers_eye_animation.json'
-[20Oct2026 11:31:10.224] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_collector_animations.json'
-[20Oct2026 11:31:10.224] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_deposit_animations.json'
-[20Oct2026 11:31:10.225] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_relay_animations.json'
-[20Oct2026 11:31:10.226] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_splitter_animations.json'
-[20Oct2026 11:31:10.226] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spell_turret_animations.json'
-[20Oct2026 11:31:10.226] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spell_turret_timer_animations.json'
-[20Oct2026 11:31:10.226] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_warp_animations.json'
-[20Oct2026 11:31:10.226] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spike_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/starbuncle_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/storage_catalog_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/vitalic_sourcelink_animation.json'
-[20Oct2026 11:31:10.227] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/volcanic_sourcelink_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wand_animation.json'
-[20Oct2026 11:31:10.227] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/weald_waddler_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/weald_walker_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/whirlisprig_animations.json'
-[20Oct2026 11:31:10.227] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/whirlisprig_blossom_animations.json'
-[20Oct2026 11:31:10.228] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_chimera_animations.json'
-[20Oct2026 11:31:10.228] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_defender_animations.json'
-[20Oct2026 11:31:10.228] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_hunter_animations.json'
-[20Oct2026 11:31:10.228] [Worker-Main-4/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_stalker_animations.json'
-[20Oct2026 11:31:10.230] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wixie_animations.json'
-[20Oct2026 11:31:10.247] [Worker-Main-11/ERROR] [GeckoLib/]: Unable to parse animation: swim_charge
+[22Oct2026 09:57:43.768] [main/INFO] [mixin/]: Compatibility level set to JAVA_18
+[22Oct2026 09:57:43.771] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[22Oct2026 09:57:43.846] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.262, --gameDir, ., --assetsDir, C:\Users\Charlie\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[22Oct2026 09:57:43.900] [main/WARN] [mixin/]: Reference map 'moredensityfunctions.refmap.json' for moredensityfunctions.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.902] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.903] [main/WARN] [mixin/]: Reference map '${mod_id}.refmap.json' for regions_unexplored.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.906] [main/WARN] [mixin/]: Reference map 'geckolib.refmap.json' for geckolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.910] [main/WARN] [mixin/]: Reference map 'aether.refmap.json' for aether.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.911] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.912] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.913] [main/WARN] [mixin/]: Reference map 'citadel.refmap.json' for citadel.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.914] [main/WARN] [mixin/]: Reference map 'alexscaves.refmap.json' for alexscaves.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.916] [main/WARN] [mixin/]: Reference map '' for accessories-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.917] [main/WARN] [mixin/]: Reference map '' for accessories-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.918] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.918] [main/WARN] [mixin/]: Reference map 'cumulus_menus.refmap.json' for cumulus_menus.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.919] [main/WARN] [mixin/]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.920] [main/WARN] [mixin/]: Reference map 'nuggets.refmap.json' for nuggets.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:43.921] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:44.010] [main/WARN] [mixin/]: Reference map 'ars_nouveau.refmap.json' for ars_nouveau.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:44.011] [main/WARN] [mixin/]: Reference map 'trimmed.refmap.json' for trimmed.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:44.011] [main/WARN] [mixin/]: Reference map 'trimmed.refmap.json' for trimmed.neo.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2026 09:57:44.983] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[22Oct2026 09:57:45.078] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[22Oct2026 09:57:45.093] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[22Oct2026 09:57:47.480] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 474 milliseconds
+[22Oct2026 09:57:52.784] [pool-15-thread-1/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin from mod alexscaves has multiple constructors, <init>(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[22Oct2026 09:57:53.974] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Oct2026 09:57:53.976] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Oct2026 09:57:53.979] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Oct2026 09:57:53.981] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Oct2026 09:57:53.983] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Oct2026 09:57:54.191] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.262.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[22Oct2026 09:57:54.191] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Charlie/IdeaProjects/Fractispheric/build/moddev/artifacts/neoforge-21.1.262.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[22Oct2026 09:57:54.218] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22Oct2026 09:57:54.229] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22Oct2026 09:57:54.381] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[22Oct2026 09:57:55.062] [modloading-worker-0/INFO] [owo/]: My Seethenhagen factory makes 331 pounds of licorice per hour
+[22Oct2026 09:57:55.088] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.262, for MC 1.21.1
+[22Oct2026 09:57:55.199] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing EnderscapeConfig from 'C:\Users\Charlie\IdeaProjects\Fractispheric\run\config\enderscape.json5'
+[22Oct2026 09:57:55.220] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\Charlie\IdeaProjects\Fractispheric\run\config\yacl.json5'
+[22Oct2026 09:57:55.327] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Starting Bean Context
+[22Oct2026 09:57:55.654] [modloading-worker-0/INFO] [net.bunten.enderscape.Enderscape/]: Enderscape initialized!
+[22Oct2026 09:57:55.936] [modloading-worker-0/INFO] [twilightforest.beanification.BeanContext/]: Bean Context loaded in 609 ms
+[22Oct2026 09:58:06.377] [Render thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: loaded in block colorizer
+[22Oct2026 09:58:06.385] [Render thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: loaded in item colorizer
+[22Oct2026 09:58:06.711] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [fractispheric]
+[22Oct2026 09:58:07.181] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/moredensityfunctions, mod/fabric_api_base, mod/astralsorcery, mod/regions_unexplored, mod/owo, mod/enderscape, mod/geckolib, mod/aether, mod/lithostitched, mod/apollib, mod/philipsruins, mod/curios, mod/featurerecycler, mod/neoforge, mod/citadel, mod/alexscaves, mod/fractispheric, mod/tanshugetrees, mod/accessories, mod/cumulus_menus, mod/lambdynlights_api, mod/observerlib, mod/yet_another_config_lib_v3, mod/nuggets, mod/nitrogen_internals, mod/ars_nouveau, mod/big_lost_city, mod/infiniverse, mod/twilightforest, mod/trimmed
+[22Oct2026 09:58:07.272] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/agronomic_sourcelink_animation.json'
+[22Oct2026 09:58:07.272] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alteration_apparatus_animations.json'
+[22Oct2026 09:58:07.272] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/alchemical_sourcelink_animation.json'
+[22Oct2026 09:58:07.283] [Worker-Main-4/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM COMMON SETUP
+[22Oct2026 09:58:07.284] [Worker-Main-4/INFO] [com.phlorish.fractispheric.Fractispheric/]: DIRT BLOCK >> minecraft:dirt
+[22Oct2026 09:58:07.284] [Worker-Main-4/INFO] [com.phlorish.fractispheric.Fractispheric/]: The magic number is... 42
+[22Oct2026 09:58:07.284] [Worker-Main-4/INFO] [com.phlorish.fractispheric.Fractispheric/]: ITEM >> minecraft:iron_ingot
+[22Oct2026 09:58:07.293] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/amethyst_golem_animations.json'
+[22Oct2026 09:58:07.348] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.21.1-develop/update.json
+[22Oct2026 09:58:07.381] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/animated_block_animations.json'
+[22Oct2026 09:58:07.382] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_core_animations.json'
+[22Oct2026 09:58:07.382] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/arcane_pedestal_animations.json'
+[22Oct2026 09:58:07.382] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/basic_spell_turret_animations.json'
+[22Oct2026 09:58:07.383] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/book_wyrm_animation.json'
+[22Oct2026 09:58:07.383] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/book_wyrm_lectern_animations.json'
+[22Oct2026 09:58:07.384] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/decor_blossom_animations.json'
+[22Oct2026 09:58:07.385] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/drygmy_animations.json'
+[22Oct2026 09:58:07.386] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/empty.json'
+[22Oct2026 09:58:07.388] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/enchanting_apparatus_animations.json'
+[22Oct2026 09:58:07.401] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/imbuement_chamber_animations.json'
+[22Oct2026 09:58:07.401] [Worker-Main-8/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/lily_animations.json'
+[22Oct2026 09:58:07.410] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/mana_relay_animation.json'
+[22Oct2026 09:58:07.410] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/nook_animation.json'
+[22Oct2026 09:58:07.410] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/potion_melder_animation.json'
+[22Oct2026 09:58:07.410] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/press_animations.json'
+[22Oct2026 09:58:07.410] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/redstone_relay_animations.json'
+[22Oct2026 09:58:07.410] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/mana_splitter_animation.json'
+[22Oct2026 09:58:07.410] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/ritual.json'
+[22Oct2026 09:58:07.411] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/rune.json'
+[22Oct2026 09:58:07.411] [Worker-Main-7/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/scribes_table_animations.json'
+[22Oct2026 09:58:07.411] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/scryers_eye_animation.json'
+[22Oct2026 09:58:07.411] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_collector_animations.json'
+[22Oct2026 09:58:07.411] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_deposit_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_relay_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_splitter_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/source_warp_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spell_turret_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spell_turret_timer_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/spike_animations.json'
+[22Oct2026 09:58:07.412] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/starbuncle_animations.json'
+[22Oct2026 09:58:07.413] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/storage_catalog_animations.json'
+[22Oct2026 09:58:07.413] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/vitalic_sourcelink_animation.json'
+[22Oct2026 09:58:07.413] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/volcanic_sourcelink_animations.json'
+[22Oct2026 09:58:07.413] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wand_animation.json'
+[22Oct2026 09:58:07.413] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/weald_waddler_animations.json'
+[22Oct2026 09:58:07.413] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/weald_walker_animations.json'
+[22Oct2026 09:58:07.414] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/whirlisprig_animations.json'
+[22Oct2026 09:58:07.414] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/whirlisprig_blossom_animations.json'
+[22Oct2026 09:58:07.415] [Worker-Main-10/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_chimera_animations.json'
+[22Oct2026 09:58:07.415] [Worker-Main-5/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_defender_animations.json'
+[22Oct2026 09:58:07.415] [Worker-Main-8/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_hunter_animations.json'
+[22Oct2026 09:58:07.416] [Worker-Main-11/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wilden_stalker_animations.json'
+[22Oct2026 09:58:07.417] [Worker-Main-9/WARN] [GeckoLib/]: Found animation file with improper file name format; animation files should end in .animation.json: 'ars_nouveau:animations/wixie_animations.json'
+[22Oct2026 09:58:07.443] [Worker-Main-10/ERROR] [GeckoLib/]: Unable to parse animation: swim_charge
 	-> Failed to parse expression 'math.cos(query.anim_time*swimcharge-25)*8'
 		-> Unable to parse compiled symbols from expression: [Left[swimcharge]]
-[20Oct2026 11:31:10.284] [Worker-Main-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[20Oct2026 11:31:10.353] [Worker-Main-11/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture astralsorcery:aion with size 8x8 limits mip level from 4 to 3
-[20Oct2026 11:31:10.764] [Astral Sorcery Patreon Data Loader/INFO] [Astral Sorcery/]: Finished loading patreon effects.
-[20Oct2026 11:31:10.765] [Worker-Main-2/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM CLIENT SETUP
-[20Oct2026 11:31:10.765] [Worker-Main-2/INFO] [com.phlorish.fractispheric.Fractispheric/]: MINECRAFT NAME >> Dev
-[20Oct2026 11:31:10.777] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[20Oct2026 11:31:10.994] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
-[20Oct2026 11:31:10.994] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.262
-[20Oct2026 11:31:11.431] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
-[20Oct2026 11:31:11.952] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'astralsorcery:block/liquid_starlight' referenced from: astralsorcery:block/liquid_starlight: java.io.FileNotFoundException: astralsorcery:models/block/liquid_starlight.json
-[20Oct2026 11:31:12.296] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'fractispheric:blockstates/example_block.json' missing model for variant: 'fractispheric:example_block#'
-[20Oct2026 11:31:12.298] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/particle_block.json' missing model for variant: 'ars_nouveau:particle_block#waterlogged=true'
-[20Oct2026 11:31:12.298] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/particle_block.json' missing model for variant: 'ars_nouveau:particle_block#waterlogged=false'
-[20Oct2026 11:31:12.323] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/planarium_projector.json' missing model for variant: 'ars_nouveau:planarium_projector#'
-[20Oct2026 11:31:12.560] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_block' referenced from: fractispheric:item/example_block: java.io.FileNotFoundException: fractispheric:models/item/example_block.json
-[20Oct2026 11:31:12.567] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_item' referenced from: fractispheric:item/example_item: java.io.FileNotFoundException: fractispheric:models/item/example_item.json
-[20Oct2026 11:31:12.574] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ars_nouveau:item/planarium_projector' referenced from: ars_nouveau:item/planarium_projector: java.io.FileNotFoundException: ars_nouveau:models/item/planarium_projector.json
-[20Oct2026 11:31:14.298] [Render thread/INFO] [Trimmed/]: Client tags loaded!
-[20Oct2026 11:31:14.299] [Render thread/INFO] [Trimmed/]: Client maps loaded!
-[20Oct2026 11:31:14.333] [Worker-Main-11/INFO] [owo/]: Services frozen by 'io.wispforest.owo.Owo'
-[20Oct2026 11:31:14.737] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.tall_grass.fall
-[20Oct2026 11:31:14.737] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.celestial_hanging_sign.fall
-[20Oct2026 11:31:14.738] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.elytra.gliding', args=[]} for sound event: enderscape:item.elytra.gliding
-[20Oct2026 11:31:14.738] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.murublight_chanterelle.purify', args=[]} for sound event: enderscape:block.murublight_chanterelle.purify
-[20Oct2026 11:31:14.738] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.end_vault.fall
-[20Oct2026 11:31:14.739] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.leaf_litter.fall
-[20Oct2026 11:31:14.739] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.murublight_hanging_sign.fall
-[20Oct2026 11:31:14.739] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.veiled_hanging_sign.fall
-[20Oct2026 11:31:14.740] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[20Oct2026 11:31:14.740] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[20Oct2026 11:31:14.741] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: aether:entity.sentry.ambient
-[20Oct2026 11:31:14.813] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
-[20Oct2026 11:31:14.813] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[20Oct2026 11:31:14.951] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
-[20Oct2026 11:31:15.000] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
-[20Oct2026 11:31:15.003] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[20Oct2026 11:31:15.009] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[20Oct2026 11:31:15.016] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[20Oct2026 11:31:15.030] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x4 astralsorcery:textures/atlas/lumen.png-atlas
-[20Oct2026 11:31:15.031] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[20Oct2026 11:31:15.031] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
-[20Oct2026 11:31:15.033] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[20Oct2026 11:31:15.033] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[20Oct2026 11:31:15.198] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[20Oct2026 11:31:15.200] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/paintings.png-atlas
-[20Oct2026 11:31:15.201] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[20Oct2026 11:31:15.201] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[20Oct2026 11:31:15.201] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x1024x0 minecraft:textures/atlas/gui.png-atlas
-[20Oct2026 11:31:15.250] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[20Oct2026 11:31:15.339] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:rainbow_entity could not find uniform named IViewRotMat in the specified shader program.
-[20Oct2026 11:31:15.346] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:blamed_entity could not find uniform named IViewRotMat in the specified shader program.
-[20Oct2026 11:31:15.370] [Render thread/INFO] [Astral Sorcery/]: [AssetLibrary] Refreshing and Invalidating Resources
-[20Oct2026 11:31:15.372] [Render thread/INFO] [Astral Sorcery/]: [AssetLibrary] Successfully reloaded library.
-[20Oct2026 11:31:15.460] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[20Oct2026 11:31:15.464] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 twilightforest:textures/atlas/magic_paintings.png-atlas
-[20Oct2026 11:31:48.521] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack builtin/aether_accessories, loading it automatically
-[20Oct2026 11:31:50.577] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 4024 recipes
-[20Oct2026 11:31:50.933] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3765 advancements
-[20Oct2026 11:31:50.943] [Render thread/INFO] [Curios API/]: Loaded 11 curio slots
-[20Oct2026 11:31:50.947] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
-[20Oct2026 11:31:50.980] [Render thread/INFO] [Astral Sorcery/]: Loading tome research with 53 research nodes.
-[20Oct2026 11:31:50.985] [Render thread/INFO] [Astral Sorcery/]: Loading perk tree with 364 perks.
-[20Oct2026 11:31:51.008] [Render thread/INFO] [Astral Sorcery/]: Loading artifact conditions with 32 conditions.
-[20Oct2026 11:31:51.017] [Render thread/INFO] [Astral Sorcery/]: Loading artifact effects with 4 effects.
-[20Oct2026 11:31:51.021] [Render thread/INFO] [Astral Sorcery/]: Loading artifact effects with 3 effects.
-[20Oct2026 11:31:51.022] [Render thread/INFO] [Astral Sorcery/]: Loading 14 lumen binding types and 1 mapping files.
-[20Oct2026 11:31:55.433] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
-[20Oct2026 11:31:55.454] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 21ms
-[20Oct2026 11:31:55.455] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
-[20Oct2026 11:31:55.455] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 0ms
-[20Oct2026 11:31:55.455] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
-[20Oct2026 11:31:55.456] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 1ms
-[20Oct2026 11:31:55.460] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
-[20Oct2026 11:31:55.468] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 8ms
-[20Oct2026 11:34:15.570] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack builtin/aether_accessories, loading it automatically
-[20Oct2026 11:34:15.658] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[20Oct2026 11:34:15.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20Oct2026 11:34:15.965] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:eucalyptus_forest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[20Oct2026 11:34:15.982] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[20Oct2026 11:34:15.988] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:sparse_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[20Oct2026 11:34:15.993] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:tropics biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
-[20Oct2026 11:34:19.447] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:overworld
-[20Oct2026 11:34:19.447] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:overworld finished
-[20Oct2026 11:34:26.172] [worldgen/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
-[20Oct2026 11:34:26.228] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 10 to index 11 for biome "regions_unexplored:frozen_pine_taiga". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.229] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 11 to index 10 for biome "regions_unexplored:frozen_pine_taiga". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.229] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
-[20Oct2026 11:34:26.229] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "regions_unexplored:patch/daisies" from index 3 to index 5 for biome "regions_unexplored:highland_fields". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.229] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 5 to index 3 for biome "regions_unexplored:highland_fields". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.229] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
-[20Oct2026 11:34:26.241] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 8 to index 9 for biome "regions_unexplored:spires". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.241] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 9 to index 8 for biome "regions_unexplored:spires". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.241] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
-[20Oct2026 11:34:26.246] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 10 to index 11 for biome "regions_unexplored:cold_boreal_taiga". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.246] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 11 to index 10 for biome "regions_unexplored:cold_boreal_taiga". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.246] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
-[20Oct2026 11:34:26.258] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 10 to index 11 for biome "regions_unexplored:icy_heights". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.258] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 11 to index 10 for biome "regions_unexplored:icy_heights". Placed Feature index rules set by biome "fracti:aether".
-[20Oct2026 11:34:26.259] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
-[20Oct2026 11:34:26.263] [worldgen/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 91ms
-[20Oct2026 11:34:26.263] [worldgen/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Feature Recycler just prevented 5 crashes!
-[20Oct2026 11:34:26.294] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/0)
-[20Oct2026 11:34:26.362] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:34:26.366] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/-1)
-[20Oct2026 11:34:26.608] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:34:26.609] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/0)
-[20Oct2026 11:34:26.650] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:34:26.651] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/-1)
-[20Oct2026 11:34:26.790] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:34:27.393] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/focal_points for level minecraft:overworld
-[20Oct2026 11:34:27.395] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/focal_points for level minecraft:overworld finished
-[20Oct2026 11:34:27.435] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_end
-[20Oct2026 11:34:27.435] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_end finished
-[20Oct2026 11:34:27.454] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level aether:the_aether
-[20Oct2026 11:34:27.455] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level aether:the_aether finished
-[20Oct2026 11:34:27.461] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_nether
-[20Oct2026 11:34:27.461] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_nether finished
-[20Oct2026 11:34:27.468] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level twilightforest:twilight_forest
-[20Oct2026 11:34:27.468] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level twilightforest:twilight_forest finished
-[20Oct2026 11:34:27.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20Oct2026 11:34:27.500] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20Oct2026 11:34:28.377] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20Oct2026 11:34:28.714] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20Oct2026 11:34:29.156] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20Oct2026 11:34:29.509] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20Oct2026 11:34:30.175] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[20Oct2026 11:34:30.685] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20Oct2026 11:34:31.159] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20Oct2026 11:34:31.521] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20Oct2026 11:34:31.996] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[20Oct2026 11:34:32.426] [Server thread/INFO] [ObserverLib/]: Loading WorldData observerlib/structure_buffer for level minecraft:overworld
-[20Oct2026 11:34:32.432] [Server thread/INFO] [ObserverLib/]: Loading WorldData observerlib/structure_buffer for level minecraft:overworld finished
-[20Oct2026 11:34:32.433] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:overworld
-[20Oct2026 11:34:32.435] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:overworld finished
-[20Oct2026 11:34:32.693] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20Oct2026 11:34:32.982] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20Oct2026 11:34:33.495] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20Oct2026 11:34:33.983] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
-[20Oct2026 11:34:34.342] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[20Oct2026 11:34:34.342] [Server thread/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO from server starting
-[20Oct2026 11:34:34.343] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6862 ms
-[20Oct2026 11:34:34.350] [Server thread/INFO] [Astral Sorcery/]: Loaded 48 entries for JSON registry 'amulet_enchantments.json'
-[20Oct2026 11:34:34.352] [Server thread/INFO] [Astral Sorcery/]: Loaded 15 entries for JSON registry 'perk_gem_modifiers.json'
-[20Oct2026 11:34:34.355] [Server thread/INFO] [Astral Sorcery/]: Loaded 9 entries for JSON registry 'known_trees.json'
-[20Oct2026 11:34:34.380] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
-[20Oct2026 11:34:34.436] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_end
-[20Oct2026 11:34:34.436] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_end finished
-[20Oct2026 11:34:34.438] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level aether:the_aether
-[20Oct2026 11:34:34.438] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level aether:the_aether finished
-[20Oct2026 11:34:34.440] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_nether
-[20Oct2026 11:34:34.440] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_nether finished
-[20Oct2026 11:34:34.441] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level twilightforest:twilight_forest
-[20Oct2026 11:34:34.442] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level twilightforest:twilight_forest finished
-[20Oct2026 11:34:34.446] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 32, from 10
-[20Oct2026 11:34:34.447] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[20Oct2026 11:34:34.839] [Netty Server IO #1/INFO] [owo/]: [Handshake] Sending channel packet
-[20Oct2026 11:34:34.857] [Render thread/INFO] [owo/]: [Handshake] Sending client channels
-[20Oct2026 11:34:34.861] [Server thread/INFO] [owo/]: [Handshake] Receiving client channels
-[20Oct2026 11:34:34.862] [Server thread/INFO] [owo/]: [Handshake] Handshake completed successfully
-[20Oct2026 11:34:35.416] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:820d1149] logged in with entity id 1 at (8.5, 66.0, -4.5)
-[20Oct2026 11:34:35.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[20Oct2026 11:34:36.527] [Render thread/WARN] [io.wispforest.accessories.impl.AccessoriesHolderImpl/]: It seems the given player has no slots bound to it within a init call, is that desired?
-[20Oct2026 11:34:36.617] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_abjuration_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_split_arrow
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_conjuration_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_water_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amethyst_block
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_lapis
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_earth_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_manipulation_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_air_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amethyst
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_fire_essence
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_pierce_arrow
-[20Oct2026 11:34:36.618] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amplify_arrow
-[20Oct2026 11:34:37.740] [Render thread/INFO] [ars_nouveau/]: Documentation loaded in 1067ms
-[20Oct2026 11:34:37.877] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 330 advancements
-[20Oct2026 11:34:37.915] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 344 advancements
-[20Oct2026 11:34:47.053] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Oct2026 11:34:47.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Oct2026 11:34:47.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Oct2026 11:34:47.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
-[20Oct2026 11:34:47.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Oct2026 11:34:47.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
-[20Oct2026 11:35:27.462] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -5/-1)
-[20Oct2026 11:35:27.535] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:35:27.537] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -5/-2)
-[20Oct2026 11:35:27.600] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:35:27.602] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/-1)
-[20Oct2026 11:35:27.656] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:35:27.658] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/-2)
-[20Oct2026 11:35:27.711] [worldgen/INFO] [tanshugetrees/]: Completed!
-[20Oct2026 11:35:30.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -2543.500000, 105.652198, -463.500000]
-[20Oct2026 11:35:30.490] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7838ms or 156 ticks behind
-[20Oct2026 11:35:30.545] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -2543.500000, 105.652198, -463.500000
-[20Oct2026 11:37:22.193] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Oct2026 11:37:22.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Oct2026 11:37:22.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Oct2026 11:37:22.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
-[20Oct2026 11:37:22.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Oct2026 11:37:22.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
-[20Oct2026 11:37:27.253] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[20Oct2026 11:37:27.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Oct2026 11:37:27.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Oct2026 11:37:27.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
-[20Oct2026 11:37:27.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Oct2026 11:37:27.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
-[20Oct2026 11:37:28.178] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[20Oct2026 11:37:28.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[20Oct2026 11:37:28.209] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[20Oct2026 11:37:28.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20Oct2026 11:37:28.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20Oct2026 11:37:28.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20Oct2026 11:37:29.866] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/focal_points for level minecraft:overworld
-[20Oct2026 11:37:29.867] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/focal_points for level minecraft:overworld finished
-[20Oct2026 11:37:30.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20Oct2026 11:37:30.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20Oct2026 11:37:30.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
-[20Oct2026 11:37:30.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20Oct2026 11:37:30.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
-[20Oct2026 11:37:30.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[20Oct2026 11:37:30.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20Oct2026 11:37:30.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[20Oct2026 11:37:30.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20Oct2026 11:37:30.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[20Oct2026 11:37:30.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20Oct2026 11:37:39.924] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Oct2026 09:58:07.474] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[22Oct2026 09:58:07.511] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture astralsorcery:aion with size 8x8 limits mip level from 4 to 3
+[22Oct2026 09:58:07.658] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[22Oct2026 09:58:07.934] [Astral Sorcery Patreon Data Loader/INFO] [Astral Sorcery/]: Finished loading patreon effects.
+[22Oct2026 09:58:08.021] [Worker-Main-11/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO FROM CLIENT SETUP
+[22Oct2026 09:58:08.021] [Worker-Main-11/INFO] [com.phlorish.fractispheric.Fractispheric/]: MINECRAFT NAME >> Dev
+[22Oct2026 09:58:08.294] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.5.10 Target: null
+[22Oct2026 09:58:08.294] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json?m=1.21.1&l=NeoForge&v=21.1.262
+[22Oct2026 09:58:08.682] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.8.3345 Target: null
+[22Oct2026 09:58:09.124] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'astralsorcery:block/liquid_starlight' referenced from: astralsorcery:block/liquid_starlight: java.io.FileNotFoundException: astralsorcery:models/block/liquid_starlight.json
+[22Oct2026 09:58:09.534] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'fractispheric:blockstates/example_block.json' missing model for variant: 'fractispheric:example_block#'
+[22Oct2026 09:58:09.535] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/particle_block.json' missing model for variant: 'ars_nouveau:particle_block#waterlogged=true'
+[22Oct2026 09:58:09.535] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/particle_block.json' missing model for variant: 'ars_nouveau:particle_block#waterlogged=false'
+[22Oct2026 09:58:09.550] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.BlockStateModelLoader/]: Exception loading blockstate definition: 'ars_nouveau:blockstates/planarium_projector.json' missing model for variant: 'ars_nouveau:planarium_projector#'
+[22Oct2026 09:58:09.756] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_block' referenced from: fractispheric:item/example_block: java.io.FileNotFoundException: fractispheric:models/item/example_block.json
+[22Oct2026 09:58:09.763] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fractispheric:item/example_item' referenced from: fractispheric:item/example_item: java.io.FileNotFoundException: fractispheric:models/item/example_item.json
+[22Oct2026 09:58:09.770] [Worker-Main-11/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'ars_nouveau:item/planarium_projector' referenced from: ars_nouveau:item/planarium_projector: java.io.FileNotFoundException: ars_nouveau:models/item/planarium_projector.json
+[22Oct2026 09:58:11.488] [Worker-Main-11/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Loaded emissive block models in 117 ms
+[22Oct2026 09:58:11.640] [Render thread/INFO] [Trimmed/]: Client tags loaded!
+[22Oct2026 09:58:11.640] [Render thread/INFO] [Trimmed/]: Client maps loaded!
+[22Oct2026 09:58:11.675] [Worker-Main-2/INFO] [owo/]: Services frozen by 'io.wispforest.owo.Owo'
+[22Oct2026 09:58:12.058] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.celestial_hanging_sign.fall
+[22Oct2026 09:58:12.059] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.end_vault.fall
+[22Oct2026 09:58:12.059] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.leaf_litter.fall
+[22Oct2026 09:58:12.060] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: regions_unexplored:block.tall_grass.fall
+[22Oct2026 09:58:12.060] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.elytra.gliding', args=[]} for sound event: enderscape:item.elytra.gliding
+[22Oct2026 09:58:12.061] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.murublight_chanterelle.purify', args=[]} for sound event: enderscape:block.murublight_chanterelle.purify
+[22Oct2026 09:58:12.061] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.murublight_hanging_sign.fall
+[22Oct2026 09:58:12.061] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitles.block.generic.fall', args=[]} for sound event: enderscape:block.veiled_hanging_sign.fall
+[22Oct2026 09:58:12.062] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='alexscaves.sound.subtitle.luxtructosaurus_snort', args=[]} for sound event: alexscaves:luxtructosaurus_snort
+[22Oct2026 09:58:12.062] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='alexscaves.sound.subtitle.gingerbread_man_talk', args=[]} for sound event: alexscaves:gingerbread_man_talk
+[22Oct2026 09:58:12.063] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Oct2026 09:58:12.063] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Oct2026 09:58:12.064] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: aether:entity.sentry.ambient
+[22Oct2026 09:58:12.122] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (High Definition Audio Device)
+[22Oct2026 09:58:12.124] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Oct2026 09:58:12.352] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[22Oct2026 09:58:12.411] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/signs.png-atlas
+[22Oct2026 09:58:12.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Oct2026 09:58:12.423] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Oct2026 09:58:12.428] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22Oct2026 09:58:12.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x4 astralsorcery:textures/atlas/lumen.png-atlas
+[22Oct2026 09:58:12.443] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22Oct2026 09:58:12.443] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/chest.png-atlas
+[22Oct2026 09:58:12.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Oct2026 09:58:12.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Oct2026 09:58:12.665] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to astralsorcery:flare, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.665] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to aether:whirlwind, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.665] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to aether:evil_whirlwind, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to alexscaves:ferrouslime, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:starbuncle, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:alakarkinos, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:wixie, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:wilden_hunter, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:wilden_stalker, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:wilden_guardian, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.666] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:wilden_boss, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:drygmy, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:familiar_starbuncle, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:familiar_wixie, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:familiar_bookwyrm, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:familiar_drygmy, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:familiar_whirlisprig, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:familiar_amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:cascading_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:flourishing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.667] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:blazing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:vexing_weald_walker, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:amethyst_golem, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:gift_starby, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:animated_block, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:animated_head, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:lily, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to ars_nouveau:nook, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.668] [Render thread/WARN] [com.github.alexmodguy.alexscaves.AlexsCaves/]: Could not apply radiation glow layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[22Oct2026 09:58:12.682] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[22Oct2026 09:58:12.688] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/paintings.png-atlas
+[22Oct2026 09:58:12.689] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Oct2026 09:58:12.690] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22Oct2026 09:58:12.690] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x1024x0 minecraft:textures/atlas/gui.png-atlas
+[22Oct2026 09:58:12.769] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22Oct2026 09:58:12.910] [Render thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: registered internal shaders
+[22Oct2026 09:58:12.919] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:rainbow_entity could not find uniform named IViewRotMat in the specified shader program.
+[22Oct2026 09:58:12.925] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader ars_nouveau:blamed_entity could not find uniform named IViewRotMat in the specified shader program.
+[22Oct2026 09:58:12.945] [Render thread/WARN] [citadel/]: Failed to load shader: alexscaves:shaders/post/irradiated.json
+net.minecraft.server.ChainedJsonException: Invalid shaders/post/irradiated.json (mod/alexscaves) passes[2]: File not found
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.ChainedJsonException.forException(ChainedJsonException.java:48) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.PostChain.load(PostChain.java:88) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.PostChain.<init>(PostChain.java:54) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/citadel@2.7.1/com.github.alexthe666.citadel.client.shader.PostEffectRegistry.onInitializeOutline(PostEffectRegistry.java:44) ~[citadel-331936-8458935.jar%23204!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.handler$zmn000$citadel$initOutline(LevelRenderer.java:6288) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.initOutline(LevelRenderer.java:528) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.LevelRenderer.onResourceManagerReload(LevelRenderer.java:500) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.ResourceManagerReloadListener.lambda$reload$0(ResourceManagerReloadListener.java:21) ~[neoforge-21.1.262.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:111) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1161) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.262.jar%23189!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.45.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.45.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.45.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.45/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.45.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+Caused by: java.io.FileNotFoundException: minecraft:shaders/program/bumpy.json
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.ResourceProvider.lambda$getResourceOrThrow$1(ResourceProvider.java:18) ~[neoforge-21.1.262.jar%23189!/:?]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.ResourceProvider.getResourceOrThrow(ResourceProvider.java:18) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.EffectInstance.<init>(EffectInstance.java:64) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.PostPass.<init>(PostPass.java:33) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.PostChain.addPass(PostChain.java:282) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.PostChain.parsePassNode(PostChain.java:133) ~[neoforge-21.1.262.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.PostChain.load(PostChain.java:86) ~[neoforge-21.1.262.jar%23189!/:?]
+	... 34 more
+[22Oct2026 09:58:12.969] [Render thread/INFO] [Astral Sorcery/]: [AssetLibrary] Refreshing and Invalidating Resources
+[22Oct2026 09:58:12.972] [Render thread/INFO] [Astral Sorcery/]: [AssetLibrary] Successfully reloaded library.
+[22Oct2026 09:58:13.084] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[22Oct2026 09:58:13.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 twilightforest:textures/atlas/magic_paintings.png-atlas
+[22Oct2026 09:59:06.713] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World
+[22Oct2026 09:59:06.713] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[22Oct2026 09:59:08.441] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack builtin/aether_accessories, loading it automatically
+[22Oct2026 09:59:09.776] [Worker-Main-1/WARN] [net.minecraft.server.ReloadableServerRegistries/]: Found loot table element validation problem in {minecraft:loot_table:alexscaves:blocks/amber}.pools[1].condition[1]: Parameters [<parameter minecraft:attacking_entity>] are not provided in this context
+[22Oct2026 09:59:10.482] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 4491 recipes
+[22Oct2026 09:59:10.853] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3911 advancements
+[22Oct2026 09:59:10.862] [Render thread/INFO] [Curios API/]: Loaded 11 curio slots
+[22Oct2026 09:59:10.866] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
+[22Oct2026 09:59:10.902] [Render thread/INFO] [Astral Sorcery/]: Loading tome research with 53 research nodes.
+[22Oct2026 09:59:10.908] [Render thread/INFO] [Astral Sorcery/]: Loading perk tree with 364 perks.
+[22Oct2026 09:59:10.932] [Render thread/INFO] [Astral Sorcery/]: Loading artifact conditions with 32 conditions.
+[22Oct2026 09:59:10.937] [Render thread/INFO] [Astral Sorcery/]: Loading artifact effects with 4 effects.
+[22Oct2026 09:59:10.942] [Render thread/INFO] [Astral Sorcery/]: Loading artifact effects with 3 effects.
+[22Oct2026 09:59:10.943] [Render thread/INFO] [Astral Sorcery/]: Loading 14 lumen binding types and 1 mapping files.
+[22Oct2026 09:59:16.175] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
+[22Oct2026 09:59:16.196] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 21ms
+[22Oct2026 09:59:16.196] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
+[22Oct2026 09:59:16.196] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 0ms
+[22Oct2026 09:59:16.196] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
+[22Oct2026 09:59:16.197] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 1ms
+[22Oct2026 09:59:16.201] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
+[22Oct2026 09:59:16.206] [Render thread/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 5ms
+[22Oct2026 09:59:16.207] [Render thread/INFO] [com.github.alexmodguy.alexscaves.AlexsCaves/]: [AC] WorldGenOptionsMixin: Set world seed 5618677348817054195 in ACWorldSeedHolder (thread: Render thread)
+[22Oct2026 09:59:19.313] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack builtin/aether_accessories, loading it automatically
+[22Oct2026 09:59:19.390] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[22Oct2026 09:59:19.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2026 09:59:19.632] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:eucalyptus_forest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[22Oct2026 09:59:19.651] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[22Oct2026 09:59:19.655] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:sparse_rainforest biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[22Oct2026 09:59:19.659] [Server thread/WARN] [net.neoforged.neoforge.server.ServerLifecycleHooks/]: Detected minecraft:ocelot that was registered with CREATURE mob category but was added under MONSTER mob category for regions_unexplored:tropics biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues.
+[22Oct2026 09:59:21.976] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:overworld
+[22Oct2026 09:59:21.977] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:overworld finished
+[22Oct2026 09:59:46.158] [worldgen/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Starting feature recycler...
+[22Oct2026 09:59:46.172] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 10 to index 11 for biome "regions_unexplored:frozen_pine_taiga". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.172] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 11 to index 10 for biome "regions_unexplored:frozen_pine_taiga". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.173] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
+[22Oct2026 09:59:46.175] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "regions_unexplored:patch/daisies" from index 3 to index 5 for biome "regions_unexplored:highland_fields". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.175] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 5 to index 3 for biome "regions_unexplored:highland_fields". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.175] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
+[22Oct2026 09:59:46.241] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 8 to index 9 for biome "regions_unexplored:spires". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.242] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 9 to index 8 for biome "regions_unexplored:spires". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.242] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
+[22Oct2026 09:59:46.263] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 10 to index 11 for biome "regions_unexplored:cold_boreal_taiga". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.263] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 11 to index 10 for biome "regions_unexplored:cold_boreal_taiga". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.263] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
+[22Oct2026 09:59:46.316] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "astralsorcery:placed_glimmer_amaranth_flowers" from index 10 to index 11 for biome "regions_unexplored:icy_heights". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.316] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Moved placed feature "ars_nouveau:placed_mixed_archwoods" from index 11 to index 10 for biome "regions_unexplored:icy_heights". Placed Feature index rules set by biome "fracti:aether".
+[22Oct2026 09:59:46.316] [worldgen/WARN] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Just prevented a crash between regions_unexplored and fracti! Please report the issues to their respective issue trackers.
+[22Oct2026 09:59:46.318] [worldgen/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Finished recycling features. Took 160ms
+[22Oct2026 09:59:46.318] [worldgen/INFO] [dev.corgitaco.featurerecycler.FeatureRecycler/]: Feature Recycler just prevented 5 crashes!
+[22Oct2026 09:59:46.362] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/0)
+[22Oct2026 09:59:46.408] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 09:59:46.409] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> 0/-1)
+[22Oct2026 09:59:46.599] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 09:59:46.600] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/0)
+[22Oct2026 09:59:46.636] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 09:59:46.637] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -1/-1)
+[22Oct2026 09:59:46.758] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 09:59:47.243] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/focal_points for level minecraft:overworld
+[22Oct2026 09:59:47.245] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/focal_points for level minecraft:overworld finished
+[22Oct2026 09:59:47.274] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_end
+[22Oct2026 09:59:47.274] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_end finished
+[22Oct2026 09:59:47.286] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level aether:the_aether
+[22Oct2026 09:59:47.287] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level aether:the_aether finished
+[22Oct2026 09:59:47.291] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_nether
+[22Oct2026 09:59:47.291] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level minecraft:the_nether finished
+[22Oct2026 09:59:47.297] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level twilightforest:twilight_forest
+[22Oct2026 09:59:47.297] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/celestial_gateways for level twilightforest:twilight_forest finished
+[22Oct2026 09:59:47.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2026 09:59:47.339] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:52.738] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:55.877] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:58.490] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:58.490] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:58.490] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:58.490] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:58.490] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:58.881] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 09:59:59.450] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22Oct2026 10:00:00.146] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[22Oct2026 10:00:00.802] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[22Oct2026 10:00:00.822] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[22Oct2026 10:00:01.385] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[22Oct2026 10:00:01.838] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[22Oct2026 10:00:02.328] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[22Oct2026 10:00:03.109] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[22Oct2026 10:00:03.381] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[22Oct2026 10:00:03.835] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[22Oct2026 10:00:04.325] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[22Oct2026 10:00:04.355] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[22Oct2026 10:00:04.355] [Server thread/INFO] [com.phlorish.fractispheric.Fractispheric/]: HELLO from server starting
+[22Oct2026 10:00:04.356] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
+   Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
+   NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
+    And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
+   You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
+
+[22Oct2026 10:00:04.362] [Server thread/INFO] [Astral Sorcery/]: Loaded 48 entries for JSON registry 'amulet_enchantments.json'
+[22Oct2026 10:00:04.363] [Server thread/INFO] [Astral Sorcery/]: Loaded 15 entries for JSON registry 'perk_gem_modifiers.json'
+[22Oct2026 10:00:04.365] [Server thread/INFO] [Astral Sorcery/]: Loaded 9 entries for JSON registry 'known_trees.json'
+[22Oct2026 10:00:04.367] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 17048 ms
+[22Oct2026 10:00:04.381] [Server thread/INFO] [Astral Sorcery/]: Loaded PerkTree!
+[22Oct2026 10:00:04.432] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:overworld
+[22Oct2026 10:00:04.433] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:overworld finished
+[22Oct2026 10:00:04.436] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_end
+[22Oct2026 10:00:04.436] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_end finished
+[22Oct2026 10:00:04.438] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level aether:the_aether
+[22Oct2026 10:00:04.438] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level aether:the_aether finished
+[22Oct2026 10:00:04.439] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_nether
+[22Oct2026 10:00:04.439] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level minecraft:the_nether finished
+[22Oct2026 10:00:04.440] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level twilightforest:twilight_forest
+[22Oct2026 10:00:04.441] [Server thread/INFO] [ObserverLib/]: Loading WorldData astralsorcery/starlight_network for level twilightforest:twilight_forest finished
+[22Oct2026 10:00:04.445] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 30, from 10
+[22Oct2026 10:00:04.445] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22Oct2026 10:00:04.830] [Netty Server IO #1/INFO] [owo/]: [Handshake] Sending channel packet
+[22Oct2026 10:00:04.849] [Render thread/INFO] [owo/]: [Handshake] Sending client channels
+[22Oct2026 10:00:04.852] [Server thread/INFO] [owo/]: [Handshake] Receiving client channels
+[22Oct2026 10:00:04.853] [Server thread/INFO] [owo/]: [Handshake] Handshake completed successfully
+[22Oct2026 10:00:05.379] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:622043f6] logged in with entity id 1 at (9.5, 65.0, -3.5)
+[22Oct2026 10:00:05.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22Oct2026 10:00:05.754] [Server thread/INFO] [ObserverLib/]: Loading WorldData observerlib/structure_buffer for level minecraft:overworld
+[22Oct2026 10:00:05.762] [Server thread/INFO] [ObserverLib/]: Loading WorldData observerlib/structure_buffer for level minecraft:overworld finished
+[22Oct2026 10:00:06.165] [Render thread/WARN] [io.wispforest.accessories.impl.AccessoriesHolderImpl/]: It seems the given player has no slots bound to it within a init call, is that desired?
+[22Oct2026 10:00:06.238] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_abjuration_essence
+[22Oct2026 10:00:06.238] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_split_arrow
+[22Oct2026 10:00:06.238] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_conjuration_essence
+[22Oct2026 10:00:06.238] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_water_essence
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amethyst_block
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_lapis
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_earth_essence
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_manipulation_essence
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_air_essence
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amethyst
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_fire_essence
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_pierce_arrow
+[22Oct2026 10:00:06.239] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ars_nouveau:imbuement/ars_nouveau:imbuement_amplify_arrow
+[22Oct2026 10:00:06.892] [Render thread/INFO] [ars_nouveau/]: Documentation loaded in 604ms
+[22Oct2026 10:00:06.962] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 334 advancements
+[22Oct2026 10:00:06.991] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 348 advancements
+[22Oct2026 10:00:41.177] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/3)
+[22Oct2026 10:00:41.270] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 10:00:41.301] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -5/3)
+[22Oct2026 10:00:41.356] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 10:00:41.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -2627.500000, 124.000000, 1954.500000]
+[22Oct2026 10:00:41.507] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 24456ms or 489 ticks behind
+[22Oct2026 10:00:41.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to -2627.500000, 124.000000, 1954.500000
+[22Oct2026 10:00:42.914] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -6/4)
+[22Oct2026 10:00:42.995] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 10:00:43.005] [worldgen/INFO] [tanshugetrees/]: Generating tree locations for a new region (minecraft:overworld -> -5/4)
+[22Oct2026 10:00:43.091] [worldgen/INFO] [tanshugetrees/]: Completed!
+[22Oct2026 10:02:10.901] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Oct2026 10:02:10.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Oct2026 10:02:10.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Oct2026 10:02:10.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[22Oct2026 10:02:10.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Oct2026 10:02:10.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[22Oct2026 10:02:11.708] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22Oct2026 10:02:11.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22Oct2026 10:02:11.738] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22Oct2026 10:02:11.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2026 10:02:11.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2026 10:02:11.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2026 10:02:13.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Oct2026 10:02:14.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Oct2026 10:02:14.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/aether:the_aether
+[22Oct2026 10:02:14.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Oct2026 10:02:14.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/twilightforest:twilight_forest
+[22Oct2026 10:02:14.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22Oct2026 10:02:14.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2026 10:02:14.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[22Oct2026 10:02:14.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2026 10:02:14.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[22Oct2026 10:02:14.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Oct2026 10:02:16.393] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -191,6 +191,9 @@ dependencies {
     //Dependency on Observer Lib
     implementation "curse.maven:observerlib-316833:8726128"
 
+    //Dependency on Citadel
+    implementation "curse.maven:citadel-331936:8458935"
+
     //Dependency on BC Lib
     //implementation "curse.maven:bclib-remastered-1501730:9232104"
 
@@ -226,6 +229,9 @@ dependencies {
 
     //Dependency on Philip's Ruins
     implementation "curse.maven:ruins-569737:6058135"
+
+    //Dependency on Alex's Caves
+    implementation "curse.maven:alexs-caves-unofficial-port-1420348:7981977"
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
