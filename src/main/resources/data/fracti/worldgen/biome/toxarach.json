@@ -14,9 +14,11 @@
   "carvers": {},
   "features": [
     [],
-    [],
     [
       "alexscaves:acid_lake",
+      "alexscaves:acid_delta"
+    ],
+    [
       "alexscaves:toxic_ruins"
     ],
     [

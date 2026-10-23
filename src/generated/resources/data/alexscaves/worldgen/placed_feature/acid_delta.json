@@ -1,0 +1,16 @@
+{
+  "feature": "alexscaves:acid_delta",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 10
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
