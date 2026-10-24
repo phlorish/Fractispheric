@@ -1,0 +1,16 @@
+{
+  "feature": "regions_unexplored:special/hyacinth_plants",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 80,
+        "min_inclusive": 20
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

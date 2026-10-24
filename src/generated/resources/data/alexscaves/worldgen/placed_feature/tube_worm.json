@@ -1,0 +1,16 @@
+{
+  "feature": "alexscaves:tube_worm",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 16,
+        "min_inclusive": 5
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

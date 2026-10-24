@@ -1,0 +1,20 @@
+{
+  "feature": "alexscaves:black_vent",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 12,
+        "min_inclusive": 3
+      }
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

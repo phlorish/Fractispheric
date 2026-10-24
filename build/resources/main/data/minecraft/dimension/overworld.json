@@ -96,8 +96,8 @@
         {
           "parameters": {
             "weirdness": [
-              -1,
-              0
+              0,
+              1
             ],
             "continentalness": [
               -1,
@@ -121,7 +121,7 @@
             ],
             "offset": 0
           },
-          "biome": "fracti:marina"
+          "biome": "fracti:marina_shell"
         },
         {
           "parameters": {
@@ -229,7 +229,7 @@
             ],
             "temperature": [
               0,
-              1
+              0.375
             ],
             "humidity": [
               0,
@@ -241,7 +241,67 @@
             ],
             "offset": 0
           },
-          "biome": "fracti:nether"
+          "biome": "fracti:nether_field"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -0.17500000000000002,
+              0.17500000000000002
+            ],
+            "temperature": [
+              0.375,
+              1
+            ],
+            "humidity": [
+              0,
+              0.375
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:nether_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -0.17500000000000002,
+              0.17500000000000002
+            ],
+            "temperature": [
+              0.375,
+              1
+            ],
+            "humidity": [
+              0.375,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:nether_core"
         },
         {
           "parameters": {
@@ -366,8 +426,8 @@
         {
           "parameters": {
             "weirdness": [
-              0,
-              1
+              -1,
+              0
             ],
             "continentalness": [
               -1,
@@ -387,11 +447,71 @@
             ],
             "depth": [
               -1,
+              -0.25
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:marina_shallow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.17500000000000002
+            ],
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -0.25,
+              0.25
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:marina_mid"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              0
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.17500000000000002
+            ],
+            "temperature": [
+              0,
+              1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              0.25,
               1
             ],
             "offset": 0
           },
-          "biome": "fracti:marina_shell"
+          "biome": "fracti:marina_deep"
         }
       ],
       "type": "minecraft:multi_noise"

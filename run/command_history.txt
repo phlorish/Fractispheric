@@ -1,7 +1,3 @@
-/tp @s 72 76 856
-/time set day
-/locate biome fracti:botania
-/tp @s -36 72 567
 /tp @s -2560 ~ 1552
 /locate biome fracti:botania
 /tp @s -3012 154 1279
@@ -48,3 +44,7 @@
 /tp @s -2160 189 -272
 /locate biome fracti:toxarach
 /tp @s -2628 124 1954
+/locate biome fracti:marina_mid
+/tp @s -625 125 -232
+/locate biome fracti:marina_shallow
+/tp @s -2169 280 3039

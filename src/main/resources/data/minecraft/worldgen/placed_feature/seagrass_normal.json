@@ -1,0 +1,16 @@
+{
+  "feature": "minecraft:seagrass_short",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 48,
+        "min_inclusive": 24
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

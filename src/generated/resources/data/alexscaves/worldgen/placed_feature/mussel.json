@@ -1,0 +1,16 @@
+{
+  "feature": "alexscaves:mussel",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 200,
+        "min_inclusive": 100
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

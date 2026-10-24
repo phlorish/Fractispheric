@@ -25,7 +25,7 @@
       "y_scale": 0.5
     },
     "continents": "minecraft:overworld/continents",
-    "depth": "minecraft:overworld/depth",
+    "depth": "fracti:depth",
     "erosion": {
       "type": "minecraft:shifted_noise",
       "noise": "fracti:erosion",
@@ -351,7 +351,9 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fracti:nether"
+                        "fracti:nether_core",
+                        "fracti:nether_forest",
+                        "fracti:nether_field"
                       ]
                     },
                     "then_run": {
@@ -466,7 +468,9 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                      "fracti:nether"
+                      "fracti:nether_core",
+                      "fracti:nether_forest",
+                      "fracti:nether_field"
                     ]
                   },
                   "then_run": {
@@ -566,7 +570,6 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "fracti:marina_shell",
                     "fracti:normal",
                     "fracti:wither"
                   ]
@@ -575,6 +578,21 @@
                   "type": "minecraft:block",
                   "result_state": {
                     "Name": "minecraft:stone"
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:biome",
+                  "biome_is": [
+                    "fracti:marina_shell"
+                  ]
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:tuff"
                   }
                 }
               },
@@ -628,7 +646,9 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "fracti:nether"
+                    "fracti:nether_core",
+                    "fracti:nether_forest",
+                    "fracti:nether_field"
                   ]
                 },
                 "then_run": {
@@ -722,7 +742,9 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "fracti:marina"
+                    "fracti:marina_shallow",
+                    "fracti:marina_mid",
+                    "fracti:marina_deep"
                   ]
                 },
                 "then_run": {
