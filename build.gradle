@@ -167,6 +167,9 @@ dependencies {
     //Dependency of Aether
     implementation "curse.maven:aether-255308:7043502"
 
+    //Dependency on Deeper and Darker
+    implementation "curse.maven:deeperdarker-659011:8201775"
+
     //Dependency on Ars Nouveau
     implementation "curse.maven:ars-nouveau-401955:9052154"
 

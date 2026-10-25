@@ -318,7 +318,6 @@
                         "fracti:aether",
                         "fracti:botania",
                         "fracti:normal",
-                        "fracti:sculk",
                         "fracti:vis"
                       ]
                     },
@@ -326,6 +325,21 @@
                       "type": "minecraft:block",
                       "result_state": {
                         "Name": "minecraft:grass_block"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:sculk"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "deeperdarker:echo_soil"
                       }
                     }
                   },
@@ -371,6 +385,21 @@
                       "type": "minecraft:block",
                       "result_state": {
                         "Name": "minecraft:gravel"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:sculk"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:sculk"
                       }
                     }
                   },
@@ -464,7 +493,6 @@
                       "fracti:aether",
                       "fracti:botania",
                       "fracti:normal",
-                      "fracti:sculk",
                       "fracti:vis",
                       "fracti:wither"
                     ]
@@ -473,6 +501,21 @@
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "minecraft:dirt"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "fracti:sculk"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "deeperdarker:echo_soil"
                     }
                   }
                 },
@@ -746,7 +789,7 @@
                 "then_run": {
                   "type": "minecraft:block",
                   "result_state": {
-                    "Name": "minecraft:deepslate"
+                    "Name": "deeperdarker:gloomslate"
                   }
                 }
               },

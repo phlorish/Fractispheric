@@ -3,55 +3,116 @@
   "downfall": 0.7,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 3555929,
-    "fog_color": 4145995,
+    "sky_color": 0,
+    "fog_color": 0,
     "water_color": 1584473,
     "water_fog_color": 131593,
     "grass_color": 13059,
     "foliage_color": 14358,
     "grass_color_modifier": "dark_forest"
   },
-  "spawners": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 10,
+        "minCount": 1,
+        "weight": 12
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "deeperdarker:sculk_centipede",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 6
+      },
+      {
+        "type": "deeperdarker:sculk_snapper",
+        "maxCount": 20,
+        "minCount": 3,
+        "weight": 11
+      },
+      {
+        "type": "deeperdarker:shattered",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:phantom",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      },
+      {
+        "type": "deeperdarker:sludge",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
   "spawn_costs": {},
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "fracti:sculk_carver",
+      "fracti:sculk_canyon_carver"
     ]
   },
   "features": [
     [],
     [],
-    [],
-    [],
-    [],
+    [
+      "alexscaves:forlorn_posts"
+    ],
     [],
     [
-      "twilightforest:legacy_coal_ore",
-      "twilightforest:legacy_iron_ore",
-      "twilightforest:legacy_gold_ore",
-      "twilightforest:legacy_redstone_ore",
-      "twilightforest:legacy_diamond_ore",
-      "twilightforest:legacy_lapis_ore",
-      "twilightforest:legacy_copper_ore"
+      "alexscaves:guano_pile"
+    ],
+    [
+      "alexscaves:thornwood_tree_with_branches"
+    ],
+    [
+      "deeperdarker:gloomy_sculk",
+      "deeperdarker:soul_sand",
+      "deeperdarker:soul_soil",
+      "deeperdarker:gloomslate_coal",
+      "deeperdarker:gloomslate_iron",
+      "alexscaves:peering_coprolith"
     ],
     [
       "twilightforest:plant_roots",
-      "twilightforest:torch_berries"
+      "twilightforest:torch_berries",
+      "minecraft:sculk_vein",
+      "minecraft:sculk_patch_deep_dark",
+      "deeperdarker:gloomslate_column"
     ],
     [],
     [
-      "minecraft:patch_grass_normal",
-      "twilightforest:tree/selector/dark_forest_tree_mix",
-      "twilightforest:tree/selector/dark_forest_trees",
-      "twilightforest:tree/darkwood_tree",
+      "alexscaves:thornwood_roots",
+      "alexscaves:forlorn_hollows_brown_mushroom",
+      "fracti:darkwood_tree",
       "twilightforest:dark_grass",
       "twilightforest:dark_dead_bushes",
       "twilightforest:dark_pumpkins",
       "twilightforest:dark_mushglooms",
       "twilightforest:dark_brown_mushrooms",
-      "twilightforest:dark_red_mushrooms"
+      "twilightforest:dark_red_mushrooms",
+      "deeperdarker:infested_sculk",
+      "deeperdarker:surface_sculk_stone",
+      "deeperdarker:sculk_decoration",
+      "deeperdarker:sculk_tendrils",
+      "deeperdarker:sculk_vines",
+      "regions_unexplored:nether/patch/blackstone_cluster",
+      "regions_unexplored:nether/tree/blackstone_basin",
+      "regions_unexplored:nether/patch/cobalt_roots"
     ]
   ]
 }
