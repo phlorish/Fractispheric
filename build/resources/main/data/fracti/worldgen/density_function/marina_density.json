@@ -5,7 +5,20 @@
     "argument1": {
       "type": "minecraft:mul",
       "argument1": 50,
-      "argument2": "fracti:combined_channels"
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "fracti:combined_channels",
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 0.02,
+          "argument2": {
+            "type": "minecraft:noise",
+            "noise": "fracti:marina_shelves",
+            "xz_scale": 1,
+            "y_scale": 4
+          }
+        }
+      }
     },
     "argument2": {
       "type": "minecraft:spline",

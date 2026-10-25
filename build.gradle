@@ -194,6 +194,9 @@ dependencies {
     //Dependency on Citadel
     implementation "curse.maven:citadel-331936:8458935"
 
+    //Dependency on Cloth
+    implementation "curse.maven:cloth-config-348521:5729127"
+
     //Dependency on BC Lib
     //implementation "curse.maven:bclib-remastered-1501730:9232104"
 
@@ -232,6 +235,12 @@ dependencies {
 
     //Dependency on Alex's Caves
     implementation "curse.maven:alexs-caves-unofficial-port-1420348:7981977"
+
+    //Dependency on Featurify
+    implementation "curse.maven:featurify-1569688:9144020"
+
+    //Dependency on Burnt
+    implementation "curse.maven:burnt-998916:9313775"
 
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime

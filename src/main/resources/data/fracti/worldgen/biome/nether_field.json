@@ -23,10 +23,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:delta",
-      "minecraft:large_basalt_columns"
-    ],
+    [],
     [],
     [],
     [
@@ -42,7 +39,6 @@
       "minecraft:ore_quartz_nether"
     ],
     [
-      "minecraft:spring_water",
       "minecraft:spring_lava",
       "regions_unexplored:special/lava_fall",
       "regions_unexplored:special/overworld_lava_delta"
@@ -57,7 +53,7 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "regions_unexplored:patch/ash_vents_inferno"
+      "minecraft:crimson_forest_vegetation"
     ]
   ]
 }

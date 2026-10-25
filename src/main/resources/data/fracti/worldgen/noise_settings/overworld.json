@@ -270,7 +270,6 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fracti:marina_shell",
                         "fracti:litho",
                         "fracti:glacius"
                       ]
@@ -279,6 +278,21 @@
                       "type": "minecraft:block",
                       "result_state": {
                         "Name": "minecraft:grass_block"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:marina_shell"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:coarse_dirt"
                       }
                     }
                   }
@@ -335,14 +349,28 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fracti:litho",
-                        "fracti:marina_shell"
+                        "fracti:litho"
                       ]
                     },
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
                         "Name": "minecraft:sand"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:marina_shell"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:gravel"
                       }
                     }
                   },

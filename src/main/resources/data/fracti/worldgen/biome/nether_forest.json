@@ -23,10 +23,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:delta",
-      "minecraft:large_basalt_columns"
-    ],
+    [],
     [],
     [],
     [
@@ -39,25 +36,14 @@
       "minecraft:ore_gravel_nether",
       "minecraft:ore_blackstone",
       "minecraft:ore_gold_nether",
-      "minecraft:ore_quartz_nether"
+      "minecraft:ore_quartz_nether",
+      "regions_unexplored:nether/tree/infernal_holt",
+      "regions_unexplored:nether/patch/brimsprout",
+      "regions_unexplored:nether/dorcel",
+      "regions_unexplored:nether/patch/fire_unrestricted",
+      "regions_unexplored:nether/brimwood_shrub"
     ],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "regions_unexplored:special/lava_fall",
-      "regions_unexplored:special/overworld_lava_delta"
-    ],
-    [
-      "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "regions_unexplored:patch/ash_vents_inferno"
-    ]
+    [],
+    []
   ]
 }

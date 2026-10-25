@@ -15,7 +15,9 @@
     [],
     [],
     [],
-    [],
+    [
+      "fracti:lake"
+    ],
     [],
     [],
     [
@@ -55,16 +57,15 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_water",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:warm_ocean_vegetation",
-      "minecraft:seagrass_warm",
-      "minecraft:sea_pickle"
+      "minecraft:patch_large_fern",
+      "minecraft:patch_berry_common",
+      "regions_unexplored:tree/group/pine_taiga_primary",
+      "regions_unexplored:tree/group/pine_taiga_secondary",
+      "regions_unexplored:tree/fallen/pine_on_dirt",
+      "regions_unexplored:shrub/group/pine_taiga",
+      "regions_unexplored:patch/fern",
+      "regions_unexplored:patch/short_grass",
+      "regions_unexplored:rock/group/highland_fields"
     ],
     []
   ]
