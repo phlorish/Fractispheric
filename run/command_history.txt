@@ -1,11 +1,3 @@
-/tp @s -3088 ~ -496
-/gamemode survival
-/tp @s -3088 ~ -496
-/locate biome fracti:end
-/tp @s -215 85 15
-/tp @s -3088 ~ -496
-/locate biome fracti:end
-/tp @s -3248 85 -304
 /locate biome fracti:sculk
 /locate biome fracti:normal
 /locate structure big_lost_city:blackskyscraper
@@ -47,4 +39,12 @@
 /tp @s 630 150 886
 /locate biome fracti:sculk
 /tp @s 826 100 1319
+/tp @s 630 150 886
+/time set night
+/tp @s 630 150 886
+/time set night
+/time set midnight
+/locate structure twilightforest:hollow_tree
+/locate structure twilightforest:hedge_maze
+/locate structure twilightforest:fallen_trunk
 /tp @s 630 150 886

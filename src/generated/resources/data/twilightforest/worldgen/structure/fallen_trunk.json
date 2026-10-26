@@ -5,7 +5,7 @@
     "max_inclusive": 28,
     "min_inclusive": 22
   },
-  "biomes": "fracti:botania",
+  "biomes": "fracti:botania_edge",
   "chest_loot_table": "twilightforest:fallen_trunk_loot",
   "length": {
     "type": "minecraft:uniform",

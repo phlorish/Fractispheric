@@ -35,18 +35,14 @@
       "minecraft:spring_water"
     ],
     [
-      "fracti:rainforest_tree",
+      "fracti:barrier_jungle_tree",
       "minecraft:rooted_azalea_tree",
-      "minecraft:jungle_bush",
-      "minecraft:patch_grass_jungle",
       "minecraft:jungle_bush",
       "minecraft:vines",
       "minecraft:patch_melon_sparse",
       "regions_unexplored:shrub/group/rainforest",
       "regions_unexplored:tree/group/orchard",
-      "regions_unexplored:patch/hibiscus",
-      "alexscaves:primordial_forest_rock",
-      "alexscaves:volcano_boulder",
+      "regions_unexplored:patch/elephant_ear_unrecoverably_dense",
       "alexscaves:packed_mud_replace_dirt",
       "alexscaves:moss_replace_grass",
       "alexscaves:cycad"

@@ -15,7 +15,10 @@
   "features": [
     [],
     [],
-    [],
+    [
+      "alexscaves:primordial_forest_rock",
+      "alexscaves:volcano_boulder"
+    ],
     [],
     [],
     [],
@@ -44,11 +47,8 @@
       "twilightforest:hollow_log",
       "twilightforest:default_fallen_logs",
       "regions_unexplored:patch/hibiscus",
-      "regions_unexplored:patch/elephant_ear_unrecoverably_dense",
       "alexscaves:flytrap",
       "alexscaves:ambersol",
-      "alexscaves:primordial_forest_rock",
-      "alexscaves:volcano_boulder",
       "alexscaves:packed_mud_replace_dirt",
       "alexscaves:moss_replace_grass",
       "alexscaves:cycad",

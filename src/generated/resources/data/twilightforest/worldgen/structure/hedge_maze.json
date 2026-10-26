@@ -1,6 +1,6 @@
 {
   "type": "twilightforest:hedge_maze",
-  "biomes": "fracti:botania",
+  "biomes": "fracti:botania_edge",
   "decoration_clearance": {
     "adjust_structure_elevation": true,
     "allow_biome_surface_decorations": false,

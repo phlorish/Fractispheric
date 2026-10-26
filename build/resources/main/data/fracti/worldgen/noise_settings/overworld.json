@@ -286,6 +286,22 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
+                        "fracti:botania_core",
+                        "fracti:botania_edge"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:podzol"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
                         "fracti:marina_shell"
                       ]
                     },
@@ -316,9 +332,6 @@
                       "type": "minecraft:biome",
                       "biome_is": [
                         "fracti:aether",
-                        "fracti:botania_core",
-                        "fracti:botania_edge",
-                        "fracti:botania_high",
                         "fracti:normal",
                         "fracti:vis"
                       ]
@@ -327,6 +340,23 @@
                       "type": "minecraft:block",
                       "result_state": {
                         "Name": "minecraft:grass_block"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fracti:botania_core",
+                        "fracti:botania_edge",
+                        "fracti:botania_high"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:moss_block"
                       }
                     }
                   },

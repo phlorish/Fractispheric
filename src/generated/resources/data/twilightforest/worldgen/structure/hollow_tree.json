@@ -1,6 +1,6 @@
 {
   "type": "twilightforest:hollow_tree",
-  "biomes": "fracti:botania",
+  "biomes": "fracti:botania_edge",
   "bug": {
     "type": "minecraft:weighted_state_provider",
     "entries": [
