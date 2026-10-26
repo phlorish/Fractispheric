@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:cocoa",
+        "probability": 0.2
+      },
+      {
+        "type": "minecraft:trunk_vine"
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      }
+    ],
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "height": 5,
+      "offset": 0,
+      "radius": 5
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "min_clipped_height": 10,
+      "limit": 10,
+      "lower_size": 1,
+      "upper_size": 0
+    },
+    "trunk_placer": {
+      "type": "twilightforest:branching_trunk_placer",
+      "base_height": 32,
+      "branch_config": {
+        "branch_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:jungle_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "count_minimum": 3,
+        "downwards_pitch": 0.3,
+        "length": 15,
+        "random_add_count": 3,
+        "random_add_length": 15.0,
+        "spacing_yaw": 0.3
+      },
+      "branch_start_offset_down": 24,
+      "height_rand_a": 20,
+      "height_rand_b": 10,
+      "perpendicular_branches": false,
+      "prevent_exposed_root": false
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

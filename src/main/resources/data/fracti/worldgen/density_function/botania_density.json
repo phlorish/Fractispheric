@@ -66,24 +66,19 @@
       "coordinate": "minecraft:y",
       "points": [
         {
-          "location": -50,
+          "location": -20,
           "derivative": 0,
           "value": -1
         },
         {
-          "location": 0,
+          "location": 30,
           "derivative": 0,
           "value": -0.05
         },
         {
-          "location": 64,
-          "derivative": 0,
-          "value": 0
-        },
-        {
           "location": 84,
           "derivative": 0,
-          "value": -0.25
+          "value": 0
         },
         {
           "location": 104,
@@ -91,7 +86,12 @@
           "value": -0.25
         },
         {
-          "location": 160,
+          "location": 124,
+          "derivative": 0,
+          "value": -0.25
+        },
+        {
+          "location": 180,
           "derivative": 0,
           "value": -1
         }

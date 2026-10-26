@@ -1,0 +1,56 @@
+{
+  "temperature": 1,
+  "downfall": 0.7,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 3458400,
+    "fog_color": 12779490,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "foliage_color": 155413
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_extra",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_copper",
+      "minecraft:ore_copper_large",
+      "minecraft:disk_clay",
+      "minecraft:lush_caves_ceiling_vegetation"
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "fracti:rainforest_tree",
+      "minecraft:rooted_azalea_tree",
+      "minecraft:jungle_bush",
+      "minecraft:patch_grass_jungle",
+      "minecraft:jungle_bush",
+      "minecraft:vines",
+      "minecraft:patch_melon_sparse",
+      "regions_unexplored:shrub/group/rainforest",
+      "regions_unexplored:tree/group/orchard",
+      "regions_unexplored:patch/hibiscus",
+      "alexscaves:primordial_forest_rock",
+      "alexscaves:volcano_boulder",
+      "alexscaves:packed_mud_replace_dirt",
+      "alexscaves:moss_replace_grass",
+      "alexscaves:cycad"
+    ],
+    []
+  ]
+}

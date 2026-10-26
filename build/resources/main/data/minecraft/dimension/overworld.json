@@ -87,17 +87,17 @@
             ],
             "depth": [
               -1,
-              1
+              0.25
             ],
             "offset": 0
           },
-          "biome": "fracti:botania"
+          "biome": "fracti:botania_high"
         },
         {
           "parameters": {
             "weirdness": [
-              0,
-              1
+              -1,
+              0
             ],
             "continentalness": [
               -1,
@@ -117,11 +117,11 @@
             ],
             "depth": [
               -1,
-              1
+              -0.25
             ],
             "offset": 0
           },
-          "biome": "fracti:marina_shell"
+          "biome": "fracti:marina_shallow"
         },
         {
           "parameters": {
@@ -426,8 +426,8 @@
         {
           "parameters": {
             "weirdness": [
-              -1,
-              0
+              0,
+              1
             ],
             "continentalness": [
               -1,
@@ -447,11 +447,11 @@
             ],
             "depth": [
               -1,
-              -0.25
+              1
             ],
             "offset": 0
           },
-          "biome": "fracti:marina_shallow"
+          "biome": "fracti:marina_shell"
         },
         {
           "parameters": {
@@ -487,6 +487,36 @@
           "parameters": {
             "weirdness": [
               -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.17500000000000002
+            ],
+            "temperature": [
+              0,
+              0.375
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:botania_edge"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
               0
             ],
             "continentalness": [
@@ -512,6 +542,66 @@
             "offset": 0
           },
           "biome": "fracti:marina_deep"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.17500000000000002
+            ],
+            "temperature": [
+              0.375,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.375
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:botania_core"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.17500000000000002
+            ],
+            "temperature": [
+              0.375,
+              1
+            ],
+            "humidity": [
+              -0.375,
+              0
+            ],
+            "depth": [
+              0.25,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fracti:botania_edge"
         }
       ],
       "type": "minecraft:multi_noise"

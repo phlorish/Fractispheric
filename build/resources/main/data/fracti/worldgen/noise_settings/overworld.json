@@ -316,7 +316,9 @@
                       "type": "minecraft:biome",
                       "biome_is": [
                         "fracti:aether",
-                        "fracti:botania",
+                        "fracti:botania_core",
+                        "fracti:botania_edge",
+                        "fracti:botania_high",
                         "fracti:normal",
                         "fracti:vis"
                       ]
@@ -491,7 +493,9 @@
                     "type": "minecraft:biome",
                     "biome_is": [
                       "fracti:aether",
-                      "fracti:botania",
+                      "fracti:botania_core",
+                      "fracti:botania_edge",
+                      "fracti:botania_high",
                       "fracti:normal",
                       "fracti:vis",
                       "fracti:wither"
@@ -798,7 +802,9 @@
                 "if_true": {
                   "type": "minecraft:biome",
                   "biome_is": [
-                    "fracti:botania"
+                    "fracti:botania_core",
+                    "fracti:botania_edge",
+                    "fracti:botania_high"
                   ]
                 },
                 "then_run": {
